@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://hugoseven.netlify.app/" target="_blank">
+  <a href="https://hugoseven.netlify.app/en" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://hugoseven.netlify.app/images/logo-footer.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://hugoseven.netlify.app/images/logo.svg">
