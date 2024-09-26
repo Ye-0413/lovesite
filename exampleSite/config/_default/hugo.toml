@@ -3,7 +3,8 @@ baseURL = "https://hugoseven.netlify.app"
 hasCJKLanguage = true
 defaultContentLanguage = "zh-hans"
 
-paginate = 18
+[pagination]
+pagerSize = 18
 
 enableGitInfo = true
 enableEmoji = true
