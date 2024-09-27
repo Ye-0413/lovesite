@@ -1,7 +1,8 @@
 [[main]]
   name = "爱"
-  pageRef = "docs"
+  pageRef = "love"
   weight = 10
+  IsPage = true
 
 [[main]]
   name = "诗"

@@ -66,5 +66,5 @@ enableEmoji = true
 
 [services]
   [services.disqus]
-    shortname = ""  # "seven-demo"  
+    shortname = ""  # "Love-Site"  
 

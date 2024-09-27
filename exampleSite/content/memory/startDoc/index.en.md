@@ -14,7 +14,7 @@ description: "First saw, loved in deeeeep"
 
 # Know each other
 
-! [this is a picture] (/ images/docs/placeholder.Webp "met")
+! [this is a picture] (/images/docs/placeholder.Webp "met")
 
 
 On May 14 of this year, an evening of playing basketball without warning, I met you in Yuan Ji String Xiang. I did not expect that we would experience so much together later

@@ -1,7 +1,7 @@
 ---
 title: 使用文档
-date: 2024-04-27
-publishdate: 2024-04-27
+date: 2024-10-01
+publishdate: 2024-10-01
 params:
   disableImg: false
 ---
