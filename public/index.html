@@ -258,7 +258,7 @@
         
   
     <a
-      href="/docs/"
+      href="/"
       class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >爱</a
     >
@@ -392,6 +392,16 @@
               href="https://hugoseven.netlify.app/categories/%E6%96%87%E6%A1%A3/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               文档
+              <span class="absolute inset-0"></span>
+            </a>
+          </div>
+        
+          <div
+            class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
+            <a
+              href="https://hugoseven.netlify.app/categories/%E7%88%B1/"
+              class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
+              爱
               <span class="absolute inset-0"></span>
             </a>
           </div>
@@ -562,7 +572,7 @@
             
   
     <a
-      href="/docs/"
+      href="/"
       class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >爱</a
     >
@@ -673,6 +683,12 @@
           >文档</a
         >
       
+        <a
+          href="https://hugoseven.netlify.app/categories/%E7%88%B1/"
+          class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
+          >爱</a
+        >
+      
 
     </div>
   </div>
@@ -744,54 +760,6 @@
                 01
               </p>
             
-              <p
-                class="pl-3"
-                :class="{
-                  'animate-pingOnce': loadNum == 2,
-                  'text-gray-900': loadNum == 2, 
-                  'dark:text-gray-300': loadNum == 2, 
-                  'text-gray-400': loadNum != 2,
-                  'dark:text-gray-600': loadNum != 2,
-                }">
-                02
-              </p>
-            
-              <p
-                class="pl-3"
-                :class="{
-                  'animate-pingOnce': loadNum == 3,
-                  'text-gray-900': loadNum == 3, 
-                  'dark:text-gray-300': loadNum == 3, 
-                  'text-gray-400': loadNum != 3,
-                  'dark:text-gray-600': loadNum != 3,
-                }">
-                03
-              </p>
-            
-              <p
-                class="pl-3"
-                :class="{
-                  'animate-pingOnce': loadNum == 4,
-                  'text-gray-900': loadNum == 4, 
-                  'dark:text-gray-300': loadNum == 4, 
-                  'text-gray-400': loadNum != 4,
-                  'dark:text-gray-600': loadNum != 4,
-                }">
-                04
-              </p>
-            
-              <p
-                class="pl-3"
-                :class="{
-                  'animate-pingOnce': loadNum == 5,
-                  'text-gray-900': loadNum == 5, 
-                  'dark:text-gray-300': loadNum == 5, 
-                  'text-gray-400': loadNum != 5,
-                  'dark:text-gray-600': loadNum != 5,
-                }">
-                05
-              </p>
-            
           </div>
         </div>
       </div>
@@ -809,14 +777,14 @@
               class="group flex w-full flex-col space-y-5 md:w-2/3 md:space-y-7">
               <div
                 class="hs-content-meta flex items-center justify-start space-x-2 text-sm text-gray-600 dark:text-gray-500">
-                <p>2022/10/01</p>
+                <p>2023/06/28</p>
                 <div class="size-1 rounded-full bg-red-800"></div>
-                <p>文档</p>
+                <p>Go tutorial</p>
               </div>
               <a
-                href="https://hugoseven.netlify.app/memory/startDoc/"
+                href="https://hugoseven.netlify.app/posts/2023-06-28-getting-started-with-multi-module-workspaces/"
                 class="hs-content-title text-4xl font-bold group-hover:text-[--hs-text-color-hover] dark:text-gray-300"
-                >Start</a
+                >Getting Started With Multi Module Workspaces</a
               >
 
               <div
@@ -840,8 +808,8 @@
                   <img
                     x-show="isLoaded"
                     x-cloak
-                    :src="'https://hugoseven.netlify.app/images/docs/quick-start.webp'"
-                    :alt="'Start'"
+                    :src="'https://hugoseven.netlify.app/images/posts/go-module.jpg'"
+                    :alt="'Getting Started With Multi Module Workspaces'"
                     loading="lazy"
                     decoding="async"
                     class="h-full w-full animate-slideTop rounded-md shadow-[0_5px_15px_rgba(0,0,0,0.35)]" />
@@ -858,263 +826,11 @@
               <div
                 class="hs-summary line-clamp-[10] text-pretty tracking-wide text-gray-700 dark:text-gray-500">
                 
-                  <p>人生只若初见</p>
-                
-              </div>
-            </div>
-          </div>
-        
-          <div
-            x-intersect.margin.-50%.0="loadNum = 2"
-            class="flex space-x-7 p-1 md:p-4">
-            
-            <div
-              x-data="{ isLoaded: false }"
-              class="group flex w-full flex-col space-y-5 md:w-2/3 md:space-y-7">
-              <div
-                class="hs-content-meta flex items-center justify-start space-x-2 text-sm text-gray-600 dark:text-gray-500">
-                <p>2024/04/25</p>
-                <div class="size-1 rounded-full bg-red-800"></div>
-                <p>文档</p>
-              </div>
-              <a
-                href="https://hugoseven.netlify.app/docs/configuation/"
-                class="hs-content-title text-4xl font-bold group-hover:text-[--hs-text-color-hover] dark:text-gray-300"
-                >重要配置说明</a
-              >
+                  <p>This tutorial introduces the basics of multi-module workspaces in Go.
 
-              <div
-                class="h-60 w-full"
-                x-intersect.threshold.70="isLoaded = true;">
-                
-                  <div
-                    x-show="!isLoaded"
-                    x-cloak
-                    class="flex h-full w-full animate-pulse items-center justify-center rounded-md bg-gray-300 dark:bg-gray-700">
-                    <svg
-                      class="h-10 w-10 text-gray-200 dark:text-gray-600"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 18">
-                      <path
-                        d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z" />
-                    </svg>
-                  </div>
-                  <img
-                    x-show="isLoaded"
-                    x-cloak
-                    :src="'https://hugoseven.netlify.app/images/docs/configuation.webp'"
-                    :alt="'重要配置说明'"
-                    loading="lazy"
-                    decoding="async"
-                    class="h-full w-full animate-slideTop rounded-md shadow-[0_5px_15px_rgba(0,0,0,0.35)]" />
-                
-              </div>
-            </div>
-            
-            <div
-              class="hidden flex-col justify-center space-y-3 border-l-[1px] border-l-gray-200 p-6 text-start dark:border-l-gray-800 md:flex md:w-1/3">
-              <p
-                class="hs-summary-title text-xl font-bold text-gray-800 underline decoration-[--hs-decoration-color] decoration-4 underline-offset-4 dark:text-gray-400">
-                摘要
-              </p>
-              <div
-                class="hs-summary line-clamp-[10] text-pretty tracking-wide text-gray-700 dark:text-gray-500">
-                
-                  <p>对配置主题的一些重要配置参数进行说明</p>
-                
-              </div>
-            </div>
-          </div>
-        
-          <div
-            x-intersect.margin.-50%.0="loadNum = 3"
-            class="flex space-x-7 p-1 md:p-4">
-            
-            <div
-              x-data="{ isLoaded: false }"
-              class="group flex w-full flex-col space-y-5 md:w-2/3 md:space-y-7">
-              <div
-                class="hs-content-meta flex items-center justify-start space-x-2 text-sm text-gray-600 dark:text-gray-500">
-                <p>2024/04/25</p>
-                <div class="size-1 rounded-full bg-red-800"></div>
-                <p>文档</p>
-              </div>
-              <a
-                href="https://hugoseven.netlify.app/docs/upload-data-to-algolia/"
-                class="hs-content-title text-4xl font-bold group-hover:text-[--hs-text-color-hover] dark:text-gray-300"
-                >上传数据到 Algolia</a
-              >
+With multi-module workspaces, you can tell the Go command that you’re writing code in multiple modules at the same time and easily build and run code in those modules. 
 
-              <div
-                class="h-60 w-full"
-                x-intersect.threshold.70="isLoaded = true;">
-                
-                  <div
-                    x-show="!isLoaded"
-                    x-cloak
-                    class="flex h-full w-full animate-pulse items-center justify-center rounded-md bg-gray-300 dark:bg-gray-700">
-                    <svg
-                      class="h-10 w-10 text-gray-200 dark:text-gray-600"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 18">
-                      <path
-                        d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z" />
-                    </svg>
-                  </div>
-                  <img
-                    x-show="isLoaded"
-                    x-cloak
-                    :src="'https://hugoseven.netlify.app/images/docs/search.webp'"
-                    :alt="'上传数据到 Algolia'"
-                    loading="lazy"
-                    decoding="async"
-                    class="h-full w-full animate-slideTop rounded-md shadow-[0_5px_15px_rgba(0,0,0,0.35)]" />
-                
-              </div>
-            </div>
-            
-            <div
-              class="hidden flex-col justify-center space-y-3 border-l-[1px] border-l-gray-200 p-6 text-start dark:border-l-gray-800 md:flex md:w-1/3">
-              <p
-                class="hs-summary-title text-xl font-bold text-gray-800 underline decoration-[--hs-decoration-color] decoration-4 underline-offset-4 dark:text-gray-400">
-                摘要
-              </p>
-              <div
-                class="hs-summary line-clamp-[10] text-pretty tracking-wide text-gray-700 dark:text-gray-500">
-                
-                  <p>如何生成 ndjson 格式数据文件并上传到 Algolia</p>
-                
-              </div>
-            </div>
-          </div>
-        
-          <div
-            x-intersect.margin.-50%.0="loadNum = 4"
-            class="flex space-x-7 p-1 md:p-4">
-            
-            <div
-              x-data="{ isLoaded: false }"
-              class="group flex w-full flex-col space-y-5 md:w-2/3 md:space-y-7">
-              <div
-                class="hs-content-meta flex items-center justify-start space-x-2 text-sm text-gray-600 dark:text-gray-500">
-                <p>2024/04/25</p>
-                <div class="size-1 rounded-full bg-red-800"></div>
-                <p>文档</p>
-              </div>
-              <a
-                href="https://hugoseven.netlify.app/docs/add-social-links/"
-                class="hs-content-title text-4xl font-bold group-hover:text-[--hs-text-color-hover] dark:text-gray-300"
-                >添加额外的社交链接</a
-              >
-
-              <div
-                class="h-60 w-full"
-                x-intersect.threshold.70="isLoaded = true;">
-                
-                  <div
-                    x-show="!isLoaded"
-                    x-cloak
-                    class="flex h-full w-full animate-pulse items-center justify-center rounded-md bg-gray-300 dark:bg-gray-700">
-                    <svg
-                      class="h-10 w-10 text-gray-200 dark:text-gray-600"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 18">
-                      <path
-                        d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z" />
-                    </svg>
-                  </div>
-                  <img
-                    x-show="isLoaded"
-                    x-cloak
-                    :src="'https://hugoseven.netlify.app/images/docs/social-links.webp'"
-                    :alt="'添加额外的社交链接'"
-                    loading="lazy"
-                    decoding="async"
-                    class="h-full w-full animate-slideTop rounded-md shadow-[0_5px_15px_rgba(0,0,0,0.35)]" />
-                
-              </div>
-            </div>
-            
-            <div
-              class="hidden flex-col justify-center space-y-3 border-l-[1px] border-l-gray-200 p-6 text-start dark:border-l-gray-800 md:flex md:w-1/3">
-              <p
-                class="hs-summary-title text-xl font-bold text-gray-800 underline decoration-[--hs-decoration-color] decoration-4 underline-offset-4 dark:text-gray-400">
-                摘要
-              </p>
-              <div
-                class="hs-summary line-clamp-[10] text-pretty tracking-wide text-gray-700 dark:text-gray-500">
-                
-                  <p>如何配置普通链接和二维码弹窗方式的社交链接的教程</p>
-                
-              </div>
-            </div>
-          </div>
-        
-          <div
-            x-intersect.margin.-50%.0="loadNum = 5"
-            class="flex space-x-7 p-1 md:p-4">
-            
-            <div
-              x-data="{ isLoaded: false }"
-              class="group flex w-full flex-col space-y-5 md:w-2/3 md:space-y-7">
-              <div
-                class="hs-content-meta flex items-center justify-start space-x-2 text-sm text-gray-600 dark:text-gray-500">
-                <p>2024/04/25</p>
-                <div class="size-1 rounded-full bg-red-800"></div>
-                <p>文档</p>
-              </div>
-              <a
-                href="https://hugoseven.netlify.app/docs/installation/"
-                class="hs-content-title text-4xl font-bold group-hover:text-[--hs-text-color-hover] dark:text-gray-300"
-                >安装主题</a
-              >
-
-              <div
-                class="h-60 w-full"
-                x-intersect.threshold.70="isLoaded = true;">
-                
-                  <div
-                    x-show="!isLoaded"
-                    x-cloak
-                    class="flex h-full w-full animate-pulse items-center justify-center rounded-md bg-gray-300 dark:bg-gray-700">
-                    <svg
-                      class="h-10 w-10 text-gray-200 dark:text-gray-600"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 18">
-                      <path
-                        d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z" />
-                    </svg>
-                  </div>
-                  <img
-                    x-show="isLoaded"
-                    x-cloak
-                    :src="'https://hugoseven.netlify.app/images/docs/installation.webp'"
-                    :alt="'安装主题'"
-                    loading="lazy"
-                    decoding="async"
-                    class="h-full w-full animate-slideTop rounded-md shadow-[0_5px_15px_rgba(0,0,0,0.35)]" />
-                
-              </div>
-            </div>
-            
-            <div
-              class="hidden flex-col justify-center space-y-3 border-l-[1px] border-l-gray-200 p-6 text-start dark:border-l-gray-800 md:flex md:w-1/3">
-              <p
-                class="hs-summary-title text-xl font-bold text-gray-800 underline decoration-[--hs-decoration-color] decoration-4 underline-offset-4 dark:text-gray-400">
-                摘要
-              </p>
-              <div
-                class="hs-summary line-clamp-[10] text-pretty tracking-wide text-gray-700 dark:text-gray-500">
-                
-                  <p>从零开始安装主题</p>
+In this tutorial, you’ll create two modules in a shared multi-module workspace, make changes across those modules, and see the results of those changes in a build.</p>
                 
               </div>
             </div>

@@ -3,7 +3,7 @@ title: "Start"
 date: 2022-10-01
 draft: false
 weight: 2
-categories: ["文档"]
+categories: ["爱"]
 tags: ["seven", "体验", "github"]
 layout: "docs"
 url: "memory/startDoc"
