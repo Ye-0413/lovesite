@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hugoseven.netlify.app/docs/quick-start/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <loc>https://hugoseven.netlify.app/memory/startDoc/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -12,7 +12,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="https://hugoseven.netlify.app/docs/quick-start/"
+                href="https://hugoseven.netlify.app/memory/startDoc/"
                 />
   </url><url>
     <loc>https://hugoseven.netlify.app/docs/configuation/</loc>
@@ -132,19 +132,6 @@
                 href="https://hugoseven.netlify.app/tags/favicon/"
                 />
   </url><url>
-    <loc>https://hugoseven.netlify.app/tags/github/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoseven.netlify.app/en/tags/github/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="https://hugoseven.netlify.app/tags/github/"
-                />
-  </url><url>
     <loc>https://hugoseven.netlify.app/tags/goatcounter/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -182,19 +169,6 @@
                 rel="alternate"
                 hreflang="zh-hans"
                 href="https://hugoseven.netlify.app/tags/ndjson/"
-                />
-  </url><url>
-    <loc>https://hugoseven.netlify.app/tags/seven/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoseven.netlify.app/en/tags/seven/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="https://hugoseven.netlify.app/tags/seven/"
                 />
   </url><url>
     <loc>https://hugoseven.netlify.app/tags/</loc>
@@ -258,9 +232,6 @@
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugoseven.netlify.app/tags/%E6%90%9C%E7%B4%A2/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugoseven.netlify.app/tags/%E4%BD%93%E9%AA%8C/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugoseven.netlify.app/categories/%E6%96%87%E6%A1%A3/</loc>
@@ -349,6 +320,15 @@
                 hreflang="zh-hans"
                 href="https://hugoseven.netlify.app/posts/"
                 />
+  </url><url>
+    <loc>https://hugoseven.netlify.app/tags/github/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoseven.netlify.app/tags/seven/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoseven.netlify.app/tags/%E4%BD%93%E9%AA%8C/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugoseven.netlify.app/archive/</loc>
     <xhtml:link
