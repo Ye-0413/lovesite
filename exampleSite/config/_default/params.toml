@@ -7,7 +7,7 @@
 
 [app]
   # Optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "Seven Theme"
+  title = "Years of love"
 
   # whether to omit favicon resource links
   noFavicon = false
@@ -61,8 +61,8 @@
     QRCodeUrl = "/images/society/wechat/wechat.jpg"
 
 [copyright]
-  owner = "Seven"
-  startYear = "2023"
+  owner = "Ye Jia"
+  startYear = "2024"
 
 [articleMeta]
   disableImgGradient = false
