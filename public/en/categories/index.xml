@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Seven Theme</title>
-    <link>https://loveat20201001.cn/en/categories/</link>
+    <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/</link>
     <description>Recent content in Categories on Seven Theme</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://loveat20201001.cn/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docments</title>
-      <link>https://loveat20201001.cn/en/categories/docments/</link>
+      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/docments/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://loveat20201001.cn/en/categories/docments/</guid>
+      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/docments/</guid>
       <description></description>
     </item>
     <item>
       <title>Documents</title>
-      <link>https://loveat20201001.cn/en/categories/documents/</link>
+      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/documents/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://loveat20201001.cn/en/categories/documents/</guid>
+      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/documents/</guid>
       <description></description>
     </item>
     <item>
       <title>Go Tutorial</title>
-      <link>https://loveat20201001.cn/en/categories/go-tutorial/</link>
+      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/go-tutorial/</link>
       <pubDate>Wed, 28 Jun 2023 22:02:42 +0800</pubDate>
-      <guid>https://loveat20201001.cn/en/categories/go-tutorial/</guid>
+      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/go-tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Love</title>
-      <link>https://loveat20201001.cn/en/categories/love/</link>
+      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/love/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://loveat20201001.cn/en/categories/love/</guid>
+      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/love/</guid>
       <description></description>
     </item>
   </channel>
