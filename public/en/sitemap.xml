@@ -7,7 +7,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="https://hugoseven.netlify.app/Love/FirstMeet/"
+                href="https://hugoseven.netlify.app/docs/FirstMeet/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -15,43 +15,17 @@
                 href="https://hugoseven.netlify.app/en/Love/FirstMeet/"
                 />
   </url><url>
-    <loc>https://hugoseven.netlify.app/en/Love/FirstMeet/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <loc>https://hugoseven.netlify.app/en/docs/quick-start/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="https://hugoseven.netlify.app/Love/FirstMeet/"
+                href="https://hugoseven.netlify.app/docs/quick-start/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hugoseven.netlify.app/en/Love/FirstMeet/"
-                />
-  </url><url>
-    <loc>https://hugoseven.netlify.app/en/Love/FirstMeet/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="https://hugoseven.netlify.app/Love/FirstMeet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoseven.netlify.app/en/Love/FirstMeet/"
-                />
-  </url><url>
-    <loc>https://hugoseven.netlify.app/en/Love/FirstMeet/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="https://hugoseven.netlify.app/Love/FirstMeet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoseven.netlify.app/en/Love/FirstMeet/"
+                href="https://hugoseven.netlify.app/en/docs/quick-start/"
                 />
   </url><url>
     <loc>https://hugoseven.netlify.app/en/memory/startDoc/</loc>
@@ -80,6 +54,45 @@
                 href="https://hugoseven.netlify.app/en/docs/configuation/"
                 />
   </url><url>
+    <loc>https://hugoseven.netlify.app/en/docs/configuation/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://hugoseven.netlify.app/docs/configuation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugoseven.netlify.app/en/docs/configuation/"
+                />
+  </url><url>
+    <loc>https://hugoseven.netlify.app/en/docs/configuation/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://hugoseven.netlify.app/docs/configuation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugoseven.netlify.app/en/docs/configuation/"
+                />
+  </url><url>
+    <loc>https://hugoseven.netlify.app/en/docs/configuation/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://hugoseven.netlify.app/docs/configuation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugoseven.netlify.app/en/docs/configuation/"
+                />
+  </url><url>
     <loc>https://hugoseven.netlify.app/en/docs/upload-data-to-algolia/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -91,6 +104,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://hugoseven.netlify.app/en/docs/upload-data-to-algolia/"
+                />
+  </url><url>
+    <loc>https://hugoseven.netlify.app/en/docs/upload-data-to-algolia/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://hugoseven.netlify.app/docs/upload-data-to-algolia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugoseven.netlify.app/en/docs/upload-data-to-algolia/"
+                />
+  </url><url>
+    <loc>https://hugoseven.netlify.app/en/docs/add-social-links/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://hugoseven.netlify.app/docs/add-social-links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugoseven.netlify.app/en/docs/add-social-links/"
                 />
   </url><url>
     <loc>https://hugoseven.netlify.app/en/docs/add-social-links/</loc>
@@ -119,14 +158,21 @@
                 href="https://hugoseven.netlify.app/en/docs/installation/"
                 />
   </url><url>
-    <loc>https://hugoseven.netlify.app/en/memory/</loc>
-    <lastmod>2024-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugoseven.netlify.app/en/love/</loc>
-    <lastmod>2024-04-27T00:00:00+00:00</lastmod>
+    <loc>https://hugoseven.netlify.app/en/docs/installation/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://hugoseven.netlify.app/docs/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugoseven.netlify.app/en/docs/installation/"
+                />
   </url><url>
     <loc>https://hugoseven.netlify.app/en/</loc>
-    <lastmod>2024-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
@@ -137,6 +183,9 @@
                 hreflang="en"
                 href="https://hugoseven.netlify.app/en/"
                 />
+  </url><url>
+    <loc>https://hugoseven.netlify.app/en/memory/</loc>
+    <lastmod>2024-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugoseven.netlify.app/en/tags/algolia/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
@@ -173,6 +222,9 @@
     <loc>https://hugoseven.netlify.app/en/tags/comment/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://hugoseven.netlify.app/en/tags/demo/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugoseven.netlify.app/en/categories/docments/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -190,6 +242,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://hugoseven.netlify.app/en/tags/favicon/"
+                />
+  </url><url>
+    <loc>https://hugoseven.netlify.app/en/tags/github/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://hugoseven.netlify.app/tags/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugoseven.netlify.app/en/tags/github/"
                 />
   </url><url>
     <loc>https://hugoseven.netlify.app/en/tags/goatcounter/</loc>
@@ -245,6 +310,19 @@
   </url><url>
     <loc>https://hugoseven.netlify.app/en/tags/search/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoseven.netlify.app/en/tags/seven/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://hugoseven.netlify.app/tags/seven/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugoseven.netlify.app/en/tags/seven/"
+                />
   </url><url>
     <loc>https://hugoseven.netlify.app/en/tags/social-links/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>

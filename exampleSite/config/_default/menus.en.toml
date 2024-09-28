@@ -1,25 +1,9 @@
 [[main]]
   name = "Love"
-  pageRef = "love"
+  pageRef = "docs"
   weight = 10
-  IsPage = true
 
 [[main]]
   name = "Poem"
   pageRef = "posts"
   weight = 20
-
-[[main]]
-  name = "back"
-  pageRef = "archive"
-  weight = 30
-
-[[main]]
-  name = "Feel"
-  weight = 40
-[[main]]
-  identifier = "goods"
-  name = "memory"
-  pageRef = "goods"
-  parent = 'Feel'
-  weight = 10

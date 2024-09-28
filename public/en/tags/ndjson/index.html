@@ -29,21 +29,8 @@
 
 
 
-  
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/instantsearch.css@8.0.0/themes/reset-min.css"
-    integrity="sha256-2AeJLzExpZvqLUxMfcs+4DWcMwNfpnjUeAAvEtPr0wU="
-    crossorigin="anonymous" />
 
-  
-    
-      
-        <link rel="stylesheet" href="/css/search.min.5b451a1241a6fb64fa3ffdacab3ae219ddb9ecc76050788b64a641b173ccb14a.css" />
-      
-    
 
-  
 
 
 
@@ -52,19 +39,7 @@
 
   
     
-      
-        <link rel="stylesheet" href="/css/waline.min.ca283dedc4f01d5dfc48552cd7807b0e81de1ddabbc0811e01beb52266a2cca3.css" />
-      
-    
-  
-
-
-
-
-
-  
-    
-      <link rel="stylesheet" href="/css/styles.min.ee40c84e4b27d3beb2b2dcd6a5ef43471d75dff34b2621698ef1b15e14c97ea1.css" />
+      <link rel="stylesheet" href="/css/styles.min.9add59b18e2d8f34c8be1ed662484694a233943bfe5f2222d3684285291ee006.css" />
     
   
 
@@ -260,7 +235,7 @@
         
   
     <a
-      href="/en/love/"
+      href="/en/"
       class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Love</a
     >
@@ -272,64 +247,6 @@
       class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Poem</a
     >
-  
-
-  
-    <a
-      href="/en/archive/"
-      class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >back</a
-    >
-  
-
-  
-    <div x-data="{ isOpen: false }" class="hs-menus relative">
-      <button
-        type="button"
-        @click="isOpen = !isOpen"
-        class="group flex items-center text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-        aria-expanded="false">
-        Feel
-        <svg
-          class="size-4 flex-none transition"
-          :class="{ 'rotate-180': isOpen }"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          aria-hidden="true">
-          <path
-            fill-rule="evenodd"
-            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-            clip-rule="evenodd" />
-        </svg>
-      </button>
-
-      <div
-        x-show="isOpen"
-        x-cloak
-        x-transition:enter="transition ease-out duration-200"
-        x-transition:enter-start="opacity-0 translate-y-1"
-        x-transition:enter-end="opacity-100 translate-y-0"
-        x-transition:leave="transition ease-in duration-150"
-        x-transition:leave-start="opacity-100 translate-y-0"
-        x-transition:leave-end="opacity-0 translate-y-1"
-        @click.away="isOpen = false"
-        @scroll.window.away="isOpen = (window.scrollY > 300 ? false : true)"
-        class="absolute -left-6 top-full z-10 mt-3 w-screen max-w-40 overflow-hidden rounded-xl bg-white/95 shadow-lg ring-1 ring-gray-900/5 backdrop-blur-xl dark:bg-gray-800/95">
-        <div class="p-2">
-          
-            <div
-              class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
-              <a
-                href="/en/"
-                class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
-                memory
-                <span class="absolute inset-0"></span>
-              </a>
-            </div>
-          
-        </div>
-      </div>
-    </div>
   
 
 
@@ -496,25 +413,6 @@
   </button>
 </div>
 
-  <div class="flex">
-    <button
-      type="button"
-      id="search-icon"
-      class="rounded-full p-2.5 text-center text-black transition hover:bg-white hover:shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
-      <svg
-        class="h-5 w-5"
-        fill="currentColor"
-        viewBox="0 0 1024 1024"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        p-id="4284">
-        <path
-          d="M769.323 708.992l182.741 182.699-60.373 60.373-182.699-182.741a382.293 382.293 0 0 1-239.659 84.01c-211.968 0-384-172.032-384-384s172.032-384 384-384 384 172.032 384 384a382.293 382.293 0 0 1-84.01 239.659z m-85.59-31.659a297.685 297.685 0 0 0 84.267-208c0-165.034-133.675-298.666-298.667-298.666-165.034 0-298.666 133.632-298.666 298.666C170.667 634.325 304.299 768 469.333 768a297.685 297.685 0 0 0 208-84.267l6.4-6.4z"
-          p-id="4285"></path>
-      </svg>
-    </button>
-  </div>
-
 <div class="flex lg:hidden">
           <button
             type="button"
@@ -574,7 +472,7 @@
             
   
     <a
-      href="/en/love/"
+      href="/en/"
       class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Love</a
     >
@@ -586,54 +484,6 @@
       class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Poem</a
     >
-  
-
-  
-    <a
-      href="/en/archive/"
-      class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >back</a
-    >
-  
-
-  
-    <div x-data="{ subMenuOpen: false }" class="hs-menus">
-      <button
-        @click="subMenuOpen = !subMenuOpen"
-        type="button"
-        :class="{ 'text-[--hs-text-color-hover]': subMenuOpen, 'text-gray-900': !subMenuOpen, 'dark:text-[--hs-text-color-hover]': subMenuOpen, 'dark:text-white': !subMenuOpen }"
-        class="group flex w-full flex-col items-center justify-center rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-[--hs-text-color-hover]"
-        aria-controls="disclosure-1"
-        aria-expanded="false">
-        <span>Feel</span>
-        <svg
-          :class="{ 'rotate-180': subMenuOpen }"
-          class="size-4 flex-none transition"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          aria-hidden="true">
-          <path
-            fill-rule="evenodd"
-            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-            clip-rule="evenodd" />
-        </svg>
-      </button>
-      <div
-        x-show="subMenuOpen"
-        x-cloak
-        x-collapse
-        class="flex flex-col space-y-1"
-        id="disclosure-1">
-        
-          <a
-            href="/en/"
-            class="w-full rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-            >memory</a
-          >
-        
-
-      </div>
-    </div>
   
 
 
@@ -772,6 +622,48 @@
 </li>
 
       
+        <li
+  x-data="{ isLoaded: false }"
+  class="items-stretch"
+  x-intersect.threshold.30="isLoaded = true">
+  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
+  <div
+    x-show="isLoaded"
+    x-cloak
+    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
+    <div class="h-64 w-full md:h-48">
+      
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'https://hugoseven.netlify.app/images/docs/search.webp'"
+          :alt="'/images/docs/search.webp'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
+      
+    </div>
+
+    <div class="px-4 py-6 sm:p-6">
+      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
+        2024/04/25
+      </p>
+
+      <a href="https://hugoseven.netlify.app/en/docs/upload-data-to-algolia/">
+        <p
+          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
+          Uploading Data to Algolia Search
+        </p>
+      </a>
+    </div>
+  </div>
+</li>
+
+      
     </ul>
     
 
@@ -782,95 +674,6 @@
 
     
       
-<div
-  id="search-overlay"
-  class="fixed inset-0 z-50 hidden bg-gray-900/90 backdrop-blur-lg dark:bg-gray-900/80"></div>
-<section
-  id="search-section"
-  class="hs-search z-50 flex hidden h-dvh w-full flex-col">
-  
-  <div
-    class="flex h-dvh w-full flex-col overflow-auto md:mx-auto md:w-2/3 lg:max-w-2xl">
-    
-    <div
-      id="searchBoxDiv"
-      class="hs-search-input-wrapper sticky top-[-88px] z-50 flex flex-row justify-between px-8 pt-[88px]">
-      <div id="searchBox" class="my-6 flex w-full flex-row items-center"></div>
-    </div>
-
-    
-    <div class="hs-search-results-wrapper h-[30rem] overflow-auto">
-      <div id="searchResults" class="hs-search-results my-3 px-6"></div>
-      <div
-        id="NotSearchResults"
-        class="hidden flex-col items-center justify-around space-y-4 px-6 py-10">
-        <p
-          class="hs-search-no-results text-lg font-bold tracking-wide text-gray-500">
-          No search content
-        </p>
-      </div>
-      <div
-        id="searchError"
-        class="hidden flex-col items-center justify-around space-y-4 px-6 py-10 text-center ">
-        <p class="hs-search-error text-lg font-bold text-red-500">
-          
-        </p>
-      </div>
-      <div
-        id="searchLoading"
-        class="hidden flex-col items-center justify-around px-6 py-10">
-        <svg
-          t="1689331200868"
-          class="icon animate-spin"
-          viewBox="0 0 1024 1024"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-          p-id="51409"
-          width="128"
-          height="128">
-          <path
-            d="M512 170.666667v85.333333a256 256 0 1 1-223.573333 131.2L213.930667 345.6A341.333333 341.333333 0 1 0 512 170.666667z"
-            fill="#bfbfbf"
-            opacity=".3"
-            p-id="51410"></path>
-        </svg>
-      </div>
-    </div>
-  </div>
-  
-  <div
-    class="hs-search-other bottom-0 flex flex-col items-center justify-center space-y-2 py-8 text-xs font-bold text-gray-600">
-    <div class="hs-search-cancel hidden md:block">
-      Press ESC to cancel
-    </div>
-    <div class="hs-search-powered_by flex items-center justify-center">
-      
-      Powered by &nbsp;<img src="/images/default/algolia-logo.svg" alt="" class="h-4" />
-    </div>
-  </div>
-</section>
-
-<script
-  src="https://cdn.jsdelivr.net/npm/algoliasearch@4.17.2/dist/algoliasearch-lite.umd.js"
-  integrity="sha256-X2G+vjV8i6Jj2NSGFTvy6Z4q2AlmF5aH0HiIpWJ8eU4="
-  crossorigin="anonymous"></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.56.3/dist/instantsearch.production.min.js"
-  integrity="sha256-mWvjWAfZylKMOg+S3HLq+wng1HHRnl2Idr2r8NsUzIU="
-  crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-
-  
-
-<script src="/js/search.min.81e8f7f78f491ce6bf44c5603795508c0bd1d33a19a830aaac4eedc4685663ac.js"></script>
-
     <footer
   id="footer"
   x-ref="footer"
@@ -1068,13 +871,6 @@
     All Rights Reserved
   </span>
 </footer>
-
-  
-    <script
-      data-goatcounter="https://seven-demo.goatcounter.com/count"
-      async
-      src="//gc.zgo.at/count.js"></script>
-  
 
 </body>
 </html>

@@ -71,7 +71,7 @@
   enablePageView = true
 
 [comment]
-  enable = true
+  enable = false
   enableCounts = true  # Note: only works if waline or twikoo is enabled.
   [comment.waline]
     enable = true
@@ -87,7 +87,7 @@
     region = ""
 
 [search]
-  enable = true
+  enable = false
 
   [search.algolia]
     # Type of content. 
@@ -114,5 +114,5 @@
 
 [analytics]
   [analytics.goatcounter]
-    enable = true
+    enable = false
     code = "seven-demo"  
