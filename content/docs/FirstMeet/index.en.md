@@ -7,14 +7,14 @@ categories: ["love"]
 tags: ["相识", "初遇", "萌芽","美好"]
 layout: "docs"
 url: "/docs/FirstMeet"
-image: "/images/docs/placeholder.webp"
+image: "/images/placeHolder.jpg"
 description: "First saw, loved in deeeeep"
 ---
 * Love is the kind of power that cannot be stopped by any power *
 
 # See each other
 
-On May 14 of this year, an evening of playing basketball without warning, I met you in Yuan Ji String Xiang. I did not expect that we would experience so much together later
+On May 14th of this year, an evening of playing basketball without antipication, I met you in Yuan Ji String Xiang. I did not expect that we would experience so much together later
 
 ![](FirstMeet.webp "See each other")
 

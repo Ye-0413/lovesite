@@ -7,11 +7,11 @@ categories: ["love"]
 tags: ["相识", "初遇", "萌芽","美好"]
 layout: "docs"
 url: "/docs/FirstMeet"
-image: "/images/docs/placeholder.webp"
+image: "/images/placeHolder.jpg"
 description: "与君初相识，犹如故人归"
 ---
 
-*所謂愛，就是那一種不會因任何力量而被阻止的力量*
+* 所謂愛，就是那一種不會因任何力量而被阻止的力量 *
 
 # 相识
 
