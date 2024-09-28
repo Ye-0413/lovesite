@@ -6,7 +6,6 @@ weight: 1
 categories: ["love"]
 tags: []
 layout: "docs"
-url: "Love/FirstMeet"
 image: "/images/docs/placeholder.webp"
 description: "First saw, loved in deeeeep"
 ---

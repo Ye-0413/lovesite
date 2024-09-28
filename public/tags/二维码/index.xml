@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>二维码 on 爱的日日年年</title>
-    <link>https://hugoseven.netlify.app/tags/%E4%BA%8C%E7%BB%B4%E7%A0%81/</link>
+    <link>https://loveat20201001.cn/tags/%E4%BA%8C%E7%BB%B4%E7%A0%81/</link>
     <description>Recent content in 二维码 on 爱的日日年年</description>
     <generator>Hugo</generator>
     <language>zh-hans</language>
     <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://hugoseven.netlify.app/tags/%E4%BA%8C%E7%BB%B4%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://loveat20201001.cn/tags/%E4%BA%8C%E7%BB%B4%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>添加额外的社交链接</title>
-      <link>https://hugoseven.netlify.app/docs/add-social-links/</link>
+      <link>https://loveat20201001.cn/docs/add-social-links/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hugoseven.netlify.app/docs/add-social-links/</guid>
+      <guid>https://loveat20201001.cn/docs/add-social-links/</guid>
       <description>&lt;p&gt;主题默认提供了邮件、Github、X 和微信四种社交链接，但这是远远不够的，不过可以通过重写 &lt;code&gt;hook_social_links.html&lt;/code&gt; 来添加其他的社交链接。&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;hook_social_links.html&lt;/code&gt; 是一个钩子，你可以在站点的 &lt;code&gt;partials/index&lt;/code&gt; 目录下创建一个同名文件来覆盖默认的实现。&lt;/p&gt;</description>
     </item>
     <item>
       <title>添加额外的社交链接</title>
-      <link>https://hugoseven.netlify.app/docs/add-social-links/</link>
+      <link>https://loveat20201001.cn/docs/add-social-links/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hugoseven.netlify.app/docs/add-social-links/</guid>
+      <guid>https://loveat20201001.cn/docs/add-social-links/</guid>
       <description>&lt;p&gt;主题默认提供了邮件、Github、X 和微信四种社交链接，但这是远远不够的，不过可以通过重写 &lt;code&gt;hook_social_links.html&lt;/code&gt; 来添加其他的社交链接。&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;hook_social_links.html&lt;/code&gt; 是一个钩子，你可以在站点的 &lt;code&gt;partials/index&lt;/code&gt; 目录下创建一个同名文件来覆盖默认的实现。&lt;/p&gt;</description>
     </item>
   </channel>

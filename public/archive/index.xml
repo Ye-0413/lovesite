@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts Archive on 爱的日日年年</title>
-    <link>https://hugoseven.netlify.app/archive/</link>
+    <link>https://loveat20201001.cn/archive/</link>
     <description>Recent content in Posts Archive on 爱的日日年年</description>
     <generator>Hugo</generator>
     <language>zh-hans</language>
-    <atom:link href="https://hugoseven.netlify.app/archive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://loveat20201001.cn/archive/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

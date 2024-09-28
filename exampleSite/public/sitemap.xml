@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:53663/zh-hans/sitemap.xml</loc>
+    <loc>http://localhost:59099/zh-hans/sitemap.xml</loc>
     
       <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:53663/en/sitemap.xml</loc>
+    <loc>http://localhost:59099/en/sitemap.xml</loc>
     
       <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     
