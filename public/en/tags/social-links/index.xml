@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Links on Seven Theme</title>
-    <link>https://loveat20201001.cn/en/tags/social-links/</link>
+    <link>http://localhost:53663/en/tags/social-links/</link>
     <description>Recent content in Social Links on Seven Theme</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://loveat20201001.cn/en/tags/social-links/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53663/en/tags/social-links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Add additional social links</title>
-      <link>https://loveat20201001.cn/en/docs/add-social-links/</link>
+      <link>http://localhost:53663/en/docs/add-social-links/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://loveat20201001.cn/en/docs/add-social-links/</guid>
-      <description>&lt;p&gt;The theme defaults to providing social links for email, Github, X, and WeChat, but these may not be sufficient. However, you can add additional social links by overriding the &lt;code&gt;hook_social_links.html&lt;/code&gt; file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;hook_social_links.html&lt;/code&gt; is a hook that you can create a file with the same name in the &lt;code&gt;partials/index&lt;/code&gt; directory of your site to override the default implementation.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;YourSite/layouts/partials/index/hook_social_links.html&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;regular-links&#34;&gt;Regular Links&lt;/h2&gt;&#xA;&lt;p&gt;Regular links, where clicking the icon directly redirects to the link address.&lt;/p&gt;</description>
+      <guid>http://localhost:53663/en/docs/add-social-links/</guid>
+      <description>&lt;p&gt;The theme defaults to providing social links for email, Github, X, and WeChat, but these may not be sufficient. However, you can add additional social links by overriding the &lt;code&gt;hook_social_links.html&lt;/code&gt; file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;hook_social_links.html&lt;/code&gt; is a hook that you can create a file with the same name in the &lt;code&gt;partials/index&lt;/code&gt; directory of your site to override the default implementation.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;YourSite/layouts/partials/index/hook_social_links.html&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 class=&#34;group head-tag&#34; id=&#34;regular-links&#34;&gt;Regular Links&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#regular-links&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Regular links, where clicking the icon directly redirects to the link address.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Add additional social links</title>
-      <link>https://loveat20201001.cn/en/docs/add-social-links/</link>
+      <link>http://localhost:53663/en/docs/add-social-links/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://loveat20201001.cn/en/docs/add-social-links/</guid>
-      <description>&lt;p&gt;The theme defaults to providing social links for email, Github, X, and WeChat, but these may not be sufficient. However, you can add additional social links by overriding the &lt;code&gt;hook_social_links.html&lt;/code&gt; file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;hook_social_links.html&lt;/code&gt; is a hook that you can create a file with the same name in the &lt;code&gt;partials/index&lt;/code&gt; directory of your site to override the default implementation.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;YourSite/layouts/partials/index/hook_social_links.html&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;regular-links&#34;&gt;Regular Links&lt;/h2&gt;&#xA;&lt;p&gt;Regular links, where clicking the icon directly redirects to the link address.&lt;/p&gt;</description>
+      <guid>http://localhost:53663/en/docs/add-social-links/</guid>
+      <description>&lt;p&gt;The theme defaults to providing social links for email, Github, X, and WeChat, but these may not be sufficient. However, you can add additional social links by overriding the &lt;code&gt;hook_social_links.html&lt;/code&gt; file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;hook_social_links.html&lt;/code&gt; is a hook that you can create a file with the same name in the &lt;code&gt;partials/index&lt;/code&gt; directory of your site to override the default implementation.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;YourSite/layouts/partials/index/hook_social_links.html&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 class=&#34;group head-tag&#34; id=&#34;regular-links&#34;&gt;Regular Links&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#regular-links&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Regular links, where clicking the icon directly redirects to the link address.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

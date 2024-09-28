@@ -1,10 +1,9 @@
-baseURL = "https://hugoseven.netlify.app"
+baseURL = "https://loveat20201001.cn"
 
 hasCJKLanguage = true
 defaultContentLanguage = "zh-hans"
 
-[pagination]
-pagerSize = 18
+paginate = 18
 
 enableGitInfo = true
 enableEmoji = true
@@ -66,5 +65,5 @@ enableEmoji = true
 
 [services]
   [services.disqus]
-    shortname = ""  # "Love-Site"  
+    shortname = ""  # "lovesite  
 

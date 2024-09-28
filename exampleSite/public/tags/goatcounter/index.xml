@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Goatcounter on 爱的日日年年</title>
-    <link>http://localhost:52121/tags/goatcounter/</link>
+    <link>http://localhost:59653/tags/goatcounter/</link>
     <description>Recent content in Goatcounter on 爱的日日年年</description>
     <generator>Hugo</generator>
     <language>zh-hans</language>
-    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52121/tags/goatcounter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 02:40:54 +0800</lastBuildDate>
+    <atom:link href="http://localhost:59653/tags/goatcounter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重要配置说明</title>
-      <link>http://localhost:52121/docs/configuation/</link>
+      <link>http://localhost:59653/docs/configuation/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52121/docs/configuation/</guid>
+      <guid>http://localhost:59653/docs/configuation/</guid>
       <description>&lt;p&gt;下面列出了在配置主题过程中需要配置的重要参数。&lt;/p&gt;&#xA;&lt;p&gt;如果在使用过程中，发现了一些问题，欢迎在 &lt;a href=&#34;https://github.com/hugo-sid/hugo-theme-dream&#34;&gt;Github&lt;/a&gt; 上提 issue，或者跟我进一步交流。&lt;/p&gt;&#xA;&lt;h2 id=&#34;网站图标-favicon&#34;&gt;网站图标 Favicon&lt;/h2&gt;&#xA;&lt;p&gt;主题是建议使用 &lt;strong&gt;svg&lt;/strong&gt; 作为 favicon 的，当然也支持传统的格式。&lt;/p&gt;</description>
     </item>
     <item>
       <title>重要配置说明</title>
-      <link>http://localhost:52121/docs/configuation/</link>
+      <link>http://localhost:59653/docs/configuation/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52121/docs/configuation/</guid>
+      <guid>http://localhost:59653/docs/configuation/</guid>
       <description>&lt;p&gt;下面列出了在配置主题过程中需要配置的重要参数。&lt;/p&gt;&#xA;&lt;p&gt;如果在使用过程中，发现了一些问题，欢迎在 &lt;a href=&#34;https://github.com/hugo-sid/hugo-theme-dream&#34;&gt;Github&lt;/a&gt; 上提 issue，或者跟我进一步交流。&lt;/p&gt;&#xA;&lt;h2 id=&#34;网站图标-favicon&#34;&gt;网站图标 Favicon&lt;/h2&gt;&#xA;&lt;p&gt;主题是建议使用 &lt;strong&gt;svg&lt;/strong&gt; 作为 favicon 的，当然也支持传统的格式。&lt;/p&gt;</description>
     </item>
     <item>
       <title>重要配置说明</title>
-      <link>http://localhost:52121/docs/configuation/</link>
+      <link>http://localhost:59653/docs/configuation/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52121/docs/configuation/</guid>
+      <guid>http://localhost:59653/docs/configuation/</guid>
       <description>&lt;p&gt;下面列出了在配置主题过程中需要配置的重要参数。&lt;/p&gt;&#xA;&lt;p&gt;如果在使用过程中，发现了一些问题，欢迎在 &lt;a href=&#34;https://github.com/hugo-sid/hugo-theme-dream&#34;&gt;Github&lt;/a&gt; 上提 issue，或者跟我进一步交流。&lt;/p&gt;&#xA;&lt;h2 id=&#34;网站图标-favicon&#34;&gt;网站图标 Favicon&lt;/h2&gt;&#xA;&lt;p&gt;主题是建议使用 &lt;strong&gt;svg&lt;/strong&gt; 作为 favicon 的，当然也支持传统的格式。&lt;/p&gt;</description>
     </item>
     <item>
       <title>重要配置说明</title>
-      <link>http://localhost:52121/docs/configuation/</link>
+      <link>http://localhost:59653/docs/configuation/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52121/docs/configuation/</guid>
+      <guid>http://localhost:59653/docs/configuation/</guid>
       <description>&lt;p&gt;下面列出了在配置主题过程中需要配置的重要参数。&lt;/p&gt;&#xA;&lt;p&gt;如果在使用过程中，发现了一些问题，欢迎在 &lt;a href=&#34;https://github.com/hugo-sid/hugo-theme-dream&#34;&gt;Github&lt;/a&gt; 上提 issue，或者跟我进一步交流。&lt;/p&gt;&#xA;&lt;h2 id=&#34;网站图标-favicon&#34;&gt;网站图标 Favicon&lt;/h2&gt;&#xA;&lt;p&gt;主题是建议使用 &lt;strong&gt;svg&lt;/strong&gt; 作为 favicon 的，当然也支持传统的格式。&lt;/p&gt;</description>
     </item>
   </channel>

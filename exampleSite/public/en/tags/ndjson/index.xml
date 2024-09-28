@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ndjson on Seven Theme</title>
-    <link>http://localhost:52121/en/tags/ndjson/</link>
+    <link>http://localhost:59653/en/tags/ndjson/</link>
     <description>Recent content in Ndjson on Seven Theme</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52121/en/tags/ndjson/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 02:40:54 +0800</lastBuildDate>
+    <atom:link href="http://localhost:59653/en/tags/ndjson/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uploading Data to Algolia Search</title>
-      <link>http://localhost:52121/en/docs/upload-data-to-algolia/</link>
+      <link>http://localhost:59653/en/docs/upload-data-to-algolia/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52121/en/docs/upload-data-to-algolia/</guid>
+      <guid>http://localhost:59653/en/docs/upload-data-to-algolia/</guid>
       <description>&lt;p&gt;The theme recommends using the Algolia CLI to upload data to Algolia.&lt;/p&gt;&#xA;&lt;p&gt;The data upload requires using the &lt;code&gt;algolia objects&lt;/code&gt; command, which expects the uploaded file to be in ndjson format. By default, Hugo doesn&amp;rsquo;t generate ndjson format data files. However, this theme supports generating ndjson format data files by default, making it convenient to use the &lt;code&gt;algolia objects&lt;/code&gt; command to upload data to Algolia.&lt;/p&gt;&#xA;&lt;p&gt;First, make sure you have installed the Algolia CLI.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Uploading Data to Algolia Search</title>
-      <link>http://localhost:52121/en/docs/upload-data-to-algolia/</link>
+      <link>http://localhost:59653/en/docs/upload-data-to-algolia/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52121/en/docs/upload-data-to-algolia/</guid>
+      <guid>http://localhost:59653/en/docs/upload-data-to-algolia/</guid>
       <description>&lt;p&gt;The theme recommends using the Algolia CLI to upload data to Algolia.&lt;/p&gt;&#xA;&lt;p&gt;The data upload requires using the &lt;code&gt;algolia objects&lt;/code&gt; command, which expects the uploaded file to be in ndjson format. By default, Hugo doesn&amp;rsquo;t generate ndjson format data files. However, this theme supports generating ndjson format data files by default, making it convenient to use the &lt;code&gt;algolia objects&lt;/code&gt; command to upload data to Algolia.&lt;/p&gt;&#xA;&lt;p&gt;First, make sure you have installed the Algolia CLI.&lt;/p&gt;</description>
     </item>
   </channel>
