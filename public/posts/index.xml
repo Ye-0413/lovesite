@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 爱的日日年年</title>
-    <link>http://localhost:50551/posts/</link>
+    <link>http://localhost:55811/posts/</link>
     <description>Recent content in Posts on 爱的日日年年</description>
     <generator>Hugo</generator>
     <language>zh-hans</language>
-    <lastBuildDate>Sun, 29 Sep 2024 06:59:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:50551/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55811/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Getting Started With Multi Module Workspaces</title>
-      <link>http://localhost:50551/posts/2023-06-28-getting-started-with-multi-module-workspaces/</link>
+      <title>过程</title>
+      <link>http://localhost:55811/posts/poem1/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50551/posts/2023-06-28-getting-started-with-multi-module-workspaces/</guid>
-      <description>&lt;p&gt;This tutorial introduces the basics of multi-module workspaces in Go. With multi-module workspaces, you can tell the Go command that you’re writing code in multiple modules at the same time and easily build and run code in those modules.&lt;/p&gt;&#xA;&lt;p&gt;In this tutorial, you’ll create two modules in a shared multi-module workspace, make changes across those modules, and see the results of those changes in a build.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: For other tutorials, see &#xA;&lt;a&#xA;  href=&#34;https://go.dev/doc/tutorial/&#34;&#xA;  &#xA;    target=&#34;_blank&#34;&#xA;  &#xA;  &gt;Tutorials&lt;/a&#xA;&gt;&#xA;.&lt;/p&gt;&#xA;&lt;h2 class=&#34;group head-tag&#34; id=&#34;prerequisites&#34;&gt;Prerequisites&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#prerequisites&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;An installation of Go 1.18 or later.&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;A tool to edit your code.&lt;/strong&gt; Any text editor you have will work fine.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;A command terminal.&lt;/strong&gt; Go works well using any terminal on Linux and Mac, and on PowerShell or cmd in Windows.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This tutorial requires go1.18 or later. Make sure you’ve installed Go at Go 1.18 or later using the links at &#xA;&lt;a&#xA;  href=&#34;https://go.dev/dl&#34;&#xA;  &#xA;    target=&#34;_blank&#34;&#xA;  &#xA;  &gt;go.dev/dl&lt;/a&#xA;&gt;&#xA;.&lt;/p&gt;</description>
+      <guid>http://localhost:55811/posts/poem1/</guid>
+      <description>&lt;p&gt;一月你还没有出现，&lt;/p&gt;&#xA;&lt;p&gt;二月你睡在隔壁，&lt;/p&gt;&#xA;&lt;p&gt;三月下起了大雨，&lt;/p&gt;&#xA;&lt;p&gt;四月里遍地蔷薇，&lt;/p&gt;&#xA;&lt;p&gt;五月我们对面坐着，犹如梦中。&lt;/p&gt;&#xA;&lt;p&gt;就这样六月到了。&lt;/p&gt;&#xA;&lt;p&gt;六月里青草盛开，处处芬芳。&lt;/p&gt;&#xA;&lt;p&gt;七月，悲喜交加，&lt;/p&gt;&#xA;&lt;p&gt;麦浪翻滚连同草地，直到天涯。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我想和你虚度时光</title>
+      <link>http://localhost:55811/posts/poem2/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55811/posts/poem2/</guid>
+      <description>&lt;p&gt;我想和你虚度时光，比如低头看鱼&lt;/p&gt;&#xA;&lt;p&gt;比如把茶杯留在桌子上，&lt;/p&gt;&#xA;&lt;p&gt;离开 浪费它们好看的阴影&lt;/p&gt;&#xA;&lt;p&gt;我还想连落日一起浪费，比如散步&lt;/p&gt;&#xA;&lt;p&gt;一直消磨到星光满天&lt;/p&gt;&#xA;&lt;p&gt;我还要浪费风起的时候&lt;/p&gt;&#xA;&lt;p&gt;坐在走廓发呆，直到你眼中 &lt;em&gt;乌云🌩️&lt;/em&gt;&#xA;全部被吹到窗外&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

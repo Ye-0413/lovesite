@@ -7,3 +7,14 @@
   name = "Poem"
   pageRef = "posts"
   weight = 20
+
+[[main]]
+  name = "Sum"
+  pageRef = "archive"
+  weight = 30
+
+
+[[main]]
+  name = "Movement"
+  pageRef = "goods"
+  weight = 50

@@ -1,9 +1,9 @@
 languageCode = "en"
 languageName = "English"
-title = "Seven Theme"
+title = "Years of love"
 weight = 2
 
 [params]
-  description = "A Simple And Beautiful Blog Theme For Hugo"
+  description = "Love with fully real heart"
   omitCategoryOnMenu = false
   categoryName = "Category"

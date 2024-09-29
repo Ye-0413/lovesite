@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-hans">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=50551&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55811&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -257,14 +257,6 @@
 
   
     <a
-      href="/"
-      class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >情</a
-    >
-  
-
-  
-    <a
       href="/goods/"
       class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >忆</a
@@ -310,17 +302,7 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:50551/categories/go-tutorial/"
-              class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
-              Go Tutorial
-              <span class="absolute inset-0"></span>
-            </a>
-          </div>
-        
-          <div
-            class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
-            <a
-              href="http://localhost:50551/categories/love/"
+              href="http://localhost:55811/categories/love/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Love
               <span class="absolute inset-0"></span>
@@ -330,7 +312,17 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:50551/categories/%E6%96%87%E6%A1%A3/"
+              href="http://localhost:55811/categories/poem/"
+              class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
+              Poem
+              <span class="absolute inset-0"></span>
+            </a>
+          </div>
+        
+          <div
+            class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
+            <a
+              href="http://localhost:55811/categories/%E6%96%87%E6%A1%A3/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               文档
               <span class="absolute inset-0"></span>
@@ -508,14 +500,6 @@
 
   
     <a
-      href="/"
-      class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >情</a
-    >
-  
-
-  
-    <a
       href="/goods/"
       class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >忆</a
@@ -554,19 +538,19 @@
       id="disclosure-1">
       
         <a
-          href="http://localhost:50551/categories/go-tutorial/"
-          class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-          >Go Tutorial</a
-        >
-      
-        <a
-          href="http://localhost:50551/categories/love/"
+          href="http://localhost:55811/categories/love/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Love</a
         >
       
         <a
-          href="http://localhost:50551/categories/%E6%96%87%E6%A1%A3/"
+          href="http://localhost:55811/categories/poem/"
+          class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
+          >Poem</a
+        >
+      
+        <a
+          href="http://localhost:55811/categories/%E6%96%87%E6%A1%A3/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >文档</a
         >
@@ -628,7 +612,49 @@
         <img
           x-show="isLoaded"
           x-cloak
-          :src="'http://localhost:50551/images/docs/configuation.webp'"
+          :src="'http://localhost:55811/images/placeHolder.jpg'"
+          :alt="'/images/placeHolder.jpg'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
+      
+    </div>
+
+    <div class="px-4 py-6 sm:p-6">
+      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
+        2024/04/25
+      </p>
+
+      <a href="http://localhost:55811/docs/Meet/">
+        <p
+          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
+          相遇
+        </p>
+      </a>
+    </div>
+  </div>
+</li>
+
+      
+        <li
+  x-data="{ isLoaded: false }"
+  class="items-stretch"
+  x-intersect.threshold.30="isLoaded = true">
+  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
+  <div
+    x-show="isLoaded"
+    x-cloak
+    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
+    <div class="h-64 w-full md:h-48">
+      
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:55811/images/docs/configuation.webp'"
           :alt="'/images/docs/configuation.webp'"
           loading="lazy"
           decoding="async"
@@ -641,7 +667,7 @@
         2024/04/25
       </p>
 
-      <a href="http://localhost:50551/docs/configuation/">
+      <a href="http://localhost:55811/docs/configuation/">
         <p
           class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
           重要配置说明
@@ -670,91 +696,7 @@
         <img
           x-show="isLoaded"
           x-cloak
-          :src="'http://localhost:50551/images/docs/configuation.webp'"
-          :alt="'/images/docs/configuation.webp'"
-          loading="lazy"
-          decoding="async"
-          class="h-full w-full object-cover" />
-      
-    </div>
-
-    <div class="px-4 py-6 sm:p-6">
-      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
-        2024/04/25
-      </p>
-
-      <a href="http://localhost:50551/docs/configuation/">
-        <p
-          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
-          重要配置说明
-        </p>
-      </a>
-    </div>
-  </div>
-</li>
-
-      
-        <li
-  x-data="{ isLoaded: false }"
-  class="items-stretch"
-  x-intersect.threshold.30="isLoaded = true">
-  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
-  <div
-    x-show="isLoaded"
-    x-cloak
-    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
-    <div class="h-64 w-full md:h-48">
-      
-        <div
-          x-show="!isLoaded"
-          x-cloak
-          class="h-full w-full bg-transparent"></div>
-        <img
-          x-show="isLoaded"
-          x-cloak
-          :src="'http://localhost:50551/images/docs/configuation.webp'"
-          :alt="'/images/docs/configuation.webp'"
-          loading="lazy"
-          decoding="async"
-          class="h-full w-full object-cover" />
-      
-    </div>
-
-    <div class="px-4 py-6 sm:p-6">
-      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
-        2024/04/25
-      </p>
-
-      <a href="http://localhost:50551/docs/configuation/">
-        <p
-          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
-          xxxx
-        </p>
-      </a>
-    </div>
-  </div>
-</li>
-
-      
-        <li
-  x-data="{ isLoaded: false }"
-  class="items-stretch"
-  x-intersect.threshold.30="isLoaded = true">
-  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
-  <div
-    x-show="isLoaded"
-    x-cloak
-    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
-    <div class="h-64 w-full md:h-48">
-      
-        <div
-          x-show="!isLoaded"
-          x-cloak
-          class="h-full w-full bg-transparent"></div>
-        <img
-          x-show="isLoaded"
-          x-cloak
-          :src="'http://localhost:50551/images/docs/search.webp'"
+          :src="'http://localhost:55811/images/docs/search.webp'"
           :alt="'/images/docs/search.webp'"
           loading="lazy"
           decoding="async"
@@ -767,7 +709,7 @@
         2024/04/25
       </p>
 
-      <a href="http://localhost:50551/docs/upload-data-to-algolia/">
+      <a href="http://localhost:55811/docs/upload-data-to-algolia/">
         <p
           class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
           上传数据到 Algolia
@@ -796,7 +738,7 @@
         <img
           x-show="isLoaded"
           x-cloak
-          :src="'http://localhost:50551/images/docs/social-links.webp'"
+          :src="'http://localhost:55811/images/docs/social-links.webp'"
           :alt="'/images/docs/social-links.webp'"
           loading="lazy"
           decoding="async"
@@ -809,7 +751,7 @@
         2024/04/25
       </p>
 
-      <a href="http://localhost:50551/docs/add-social-links/">
+      <a href="http://localhost:55811/docs/add-social-links/">
         <p
           class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
           添加额外的社交链接
@@ -838,7 +780,7 @@
         <img
           x-show="isLoaded"
           x-cloak
-          :src="'http://localhost:50551/images/docs/installation.webp'"
+          :src="'http://localhost:55811/images/docs/installation.webp'"
           :alt="'/images/docs/installation.webp'"
           loading="lazy"
           decoding="async"
@@ -851,10 +793,178 @@
         2024/04/25
       </p>
 
-      <a href="http://localhost:50551/docs/installation/">
+      <a href="http://localhost:55811/docs/installation/">
         <p
           class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
           安装主题
+        </p>
+      </a>
+    </div>
+  </div>
+</li>
+
+      
+        <li
+  x-data="{ isLoaded: false }"
+  class="items-stretch"
+  x-intersect.threshold.30="isLoaded = true">
+  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
+  <div
+    x-show="isLoaded"
+    x-cloak
+    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
+    <div class="h-64 w-full md:h-48">
+      
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:55811/images/placeHolder.jpg'"
+          :alt="'/images/placeHolder.jpg'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
+      
+    </div>
+
+    <div class="px-4 py-6 sm:p-6">
+      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
+        2024/04/25
+      </p>
+
+      <a href="http://localhost:55811/docs/FirstYear/">
+        <p
+          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
+          第一年
+        </p>
+      </a>
+    </div>
+  </div>
+</li>
+
+      
+        <li
+  x-data="{ isLoaded: false }"
+  class="items-stretch"
+  x-intersect.threshold.30="isLoaded = true">
+  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
+  <div
+    x-show="isLoaded"
+    x-cloak
+    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
+    <div class="h-64 w-full md:h-48">
+      
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:55811/images/placeHolder.jpg'"
+          :alt="'/images/placeHolder.jpg'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
+      
+    </div>
+
+    <div class="px-4 py-6 sm:p-6">
+      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
+        2024/04/25
+      </p>
+
+      <a href="http://localhost:55811/docs/SecondYear/">
+        <p
+          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
+          两周年
+        </p>
+      </a>
+    </div>
+  </div>
+</li>
+
+      
+        <li
+  x-data="{ isLoaded: false }"
+  class="items-stretch"
+  x-intersect.threshold.30="isLoaded = true">
+  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
+  <div
+    x-show="isLoaded"
+    x-cloak
+    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
+    <div class="h-64 w-full md:h-48">
+      
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:55811/images/placeHolder.jpg'"
+          :alt="'/images/placeHolder.jpg'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
+      
+    </div>
+
+    <div class="px-4 py-6 sm:p-6">
+      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
+        2024/04/25
+      </p>
+
+      <a href="http://localhost:55811/docs/ThirdYear/">
+        <p
+          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
+          三周年
+        </p>
+      </a>
+    </div>
+  </div>
+</li>
+
+      
+        <li
+  x-data="{ isLoaded: false }"
+  class="items-stretch"
+  x-intersect.threshold.30="isLoaded = true">
+  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
+  <div
+    x-show="isLoaded"
+    x-cloak
+    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
+    <div class="h-64 w-full md:h-48">
+      
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:55811/images/placeHolder.jpg'"
+          :alt="'/images/placeHolder.jpg'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
+      
+    </div>
+
+    <div class="px-4 py-6 sm:p-6">
+      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
+        2024/04/25
+      </p>
+
+      <a href="http://localhost:55811/docs/FourthYear/">
+        <p
+          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
+          四周年
         </p>
       </a>
     </div>

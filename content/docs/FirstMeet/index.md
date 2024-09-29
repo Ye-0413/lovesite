@@ -2,7 +2,7 @@
 title: "初识"
 date: 2022-10-01
 draft: false
-weight: 1
+weight: 99
 categories: ["love"]
 tags: ["相识", "初遇", "萌芽","美好"]
 layout: "docs"

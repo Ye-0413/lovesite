@@ -1,9 +1,0 @@
-languageCode = "zh-hans"
-languageName = "简体中文"
-title = "爱的日日年年"
-weight = 1
-
-[params]
-  description = "在世间我活在一个人的心里"
-  omitCategoryOnMenu = false
-  categoryName = "分类"

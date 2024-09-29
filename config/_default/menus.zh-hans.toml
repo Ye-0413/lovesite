@@ -13,9 +13,6 @@
   pageRef = "archive"
   weight = 30
 
-[[main]]
-  name = "情"
-  weight = 40
 
 [[main]]
   name = "忆"
