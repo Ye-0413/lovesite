@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Seven Theme</title>
-    <link>http://localhost:1313/en/categories/</link>
+    <link>https://loveat20201001.cn/en/categories/</link>
     <description>Recent content in Categories on Seven Theme</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Sep 2024 12:03:16 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Sep 2024 01:38:44 +0800</lastBuildDate>
+    <atom:link href="https://loveat20201001.cn/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docments</title>
-      <link>http://localhost:1313/en/categories/docments/</link>
+      <link>https://loveat20201001.cn/en/categories/docments/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/categories/docments/</guid>
+      <guid>https://loveat20201001.cn/en/categories/docments/</guid>
       <description></description>
     </item>
     <item>
       <title>Documents</title>
-      <link>http://localhost:1313/en/categories/documents/</link>
+      <link>https://loveat20201001.cn/en/categories/documents/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/categories/documents/</guid>
+      <guid>https://loveat20201001.cn/en/categories/documents/</guid>
       <description></description>
     </item>
     <item>
       <title>文档</title>
-      <link>http://localhost:1313/en/categories/%E6%96%87%E6%A1%A3/</link>
+      <link>https://loveat20201001.cn/en/categories/%E6%96%87%E6%A1%A3/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/categories/%E6%96%87%E6%A1%A3/</guid>
+      <guid>https://loveat20201001.cn/en/categories/%E6%96%87%E6%A1%A3/</guid>
       <description></description>
     </item>
     <item>
       <title>Poem</title>
-      <link>http://localhost:1313/en/categories/poem/</link>
+      <link>https://loveat20201001.cn/en/categories/poem/</link>
       <pubDate>Wed, 28 Jun 2023 22:02:42 +0800</pubDate>
-      <guid>http://localhost:1313/en/categories/poem/</guid>
+      <guid>https://loveat20201001.cn/en/categories/poem/</guid>
       <description></description>
     </item>
     <item>
       <title>Love</title>
-      <link>http://localhost:1313/en/categories/love/</link>
+      <link>https://loveat20201001.cn/en/categories/love/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/categories/love/</guid>
+      <guid>https://loveat20201001.cn/en/categories/love/</guid>
       <description></description>
     </item>
   </channel>
