@@ -48,16 +48,16 @@
 
 [follow]
   [follow.email]
+    enable = true
+    url = "academic-ye.jia@hotmail.com"
+  [follow.github]
+    enable = false
+    url = "https://github.com/Ye-0413"
+  [follow.x]
     enable = false
     url = ""
-  [follow.github]
-    enable = true
-    url = "https://github.com/mrhelloboy/seven"
-  [follow.x]
-    enable = true
-    url = ""
   [follow.wechat]
-    enable = true
+    enable = false
     QRCodeUrl = "/images/society/wechat/wechat.jpg"
 
 [copyright]

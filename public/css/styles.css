@@ -1050,9 +1050,6 @@ video {
 .z-40 {
   z-index: 40;
 }
-.z-50 {
-  z-index: 50;
-}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -1429,36 +1426,6 @@ video {
 .animate-pulse {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
-@keyframes scaleInCenter {
-
-  0% {
-    transform: scale(0);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-.animate-scaleInCenter {
-  animation: scaleInCenter 0.5s linear both;
-}
-@keyframes scaleOutCenter {
-
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(0);
-    opacity: 1;
-  }
-}
-.animate-scaleOutCenter {
-  animation: scaleOutCenter 0.5s linear both;
-}
 @keyframes slideTop {
 
   0% {
@@ -1703,9 +1670,6 @@ video {
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-.bg-gray-900\/85 {
-  background-color: rgb(17 24 39 / 0.85);
 }
 .bg-red-700 {
   --tw-bg-opacity: 1;
@@ -2078,11 +2042,6 @@ video {
 }
 .transition-all {
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-.transition-opacity {
-  transition-property: opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -2814,24 +2773,8 @@ pre {
   outline-offset: 2px;
 }
 
-.group:hover .group-hover\:absolute {
-  position: absolute;
-}
-
-.group:hover .group-hover\:relative {
-  position: relative;
-}
-
 .group:hover .group-hover\:text-\[--hs-text-color-hover\] {
   color: var(--hs-text-color-hover);
-}
-
-.group:hover .group-hover\:opacity-0 {
-  opacity: 0;
-}
-
-.group:hover .group-hover\:opacity-100 {
-  opacity: 1;
 }
 
 .group:hover .group-hover\:after\:content-\[\'__\#\'\]::after {
