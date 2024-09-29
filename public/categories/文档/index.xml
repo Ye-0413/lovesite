@@ -2,73 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文档 on 爱的日日年年</title>
-    <link>http://localhost:55811/categories/%E6%96%87%E6%A1%A3/</link>
+    <link>http://localhost:1313/categories/%E6%96%87%E6%A1%A3/</link>
     <description>Recent content in 文档 on 爱的日日年年</description>
     <generator>Hugo</generator>
     <language>zh-hans</language>
-    <lastBuildDate>Sun, 29 Sep 2024 06:59:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55811/categories/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>相遇</title>
-      <link>http://localhost:55811/docs/Meet/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55811/docs/Meet/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;所謂愛，就是那一種不會因任何力量而被阻止的力量 *&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 class=&#34;group head-tag&#34; id=&#34;相识&#34;&gt;相识&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#%e7%9b%b8%e8%af%86&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;这一年的五月十四号，一个毫无征兆打完篮球的傍晚，在袁记串串香遇到了你，当时没有想到后来我们一起经历这么多&lt;/p&gt;&#xA;&#xA;  &lt;figure class=&#34;data-image-info &#34;&gt;&#xA;    &lt;img&#xA;      class=&#34;data-image&#34;&#xA;      src=&#34;FirstMeet.webp&#34;&#xA;      alt=&#34;&#34;&#xA;      loading=&#34;lazy&#34; /&gt;&#xA;    &lt;figcaption&gt;相识&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&#xA;&lt;p&gt;紧接着就是就是我暑假回来找你啦，还记得这些画面嘛，我们第一次吃的牛肉面，第一次去看的电影，第一次牵起的手，第一次合照，好多好多的第一次&amp;hellip;&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Sun, 29 Sep 2024 12:03:16 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重要配置说明</title>
-      <link>http://localhost:55811/docs/configuation/</link>
+      <link>http://localhost:1313/docs/configuation/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55811/docs/configuation/</guid>
+      <guid>http://localhost:1313/docs/configuation/</guid>
       <description>&lt;p&gt;下面列出了在配置主题过程中需要配置的重要参数。&lt;/p&gt;&#xA;&lt;p&gt;如果在使用过程中，发现了一些问题，欢迎在 &#xA;&lt;a&#xA;  href=&#34;https://github.com/hugo-sid/hugo-theme-dream&#34;&#xA;  &#xA;    target=&#34;_blank&#34;&#xA;  &#xA;  &gt;Github&lt;/a&#xA;&gt;&#xA; 上提 issue，或者跟我进一步交流。&lt;/p&gt;&#xA;&lt;h2 class=&#34;group head-tag&#34; id=&#34;网站图标-favicon&#34;&gt;网站图标 Favicon&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#%e7%bd%91%e7%ab%99%e5%9b%be%e6%a0%87-favicon&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;主题是建议使用 &lt;strong&gt;svg&lt;/strong&gt; 作为 favicon 的，当然也支持传统的格式。&lt;/p&gt;</description>
     </item>
     <item>
       <title>上传数据到 Algolia</title>
-      <link>http://localhost:55811/docs/upload-data-to-algolia/</link>
+      <link>http://localhost:1313/docs/upload-data-to-algolia/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55811/docs/upload-data-to-algolia/</guid>
+      <guid>http://localhost:1313/docs/upload-data-to-algolia/</guid>
       <description>&lt;p&gt;主题推荐使用 Algolia CLI 方式将数据上传到 Algolia。&lt;/p&gt;&#xA;&lt;p&gt;上传数据需要用到 &lt;code&gt;algolia objects&lt;/code&gt; 命令，而该命令要求上传的文件是 &lt;code&gt;ndjson&lt;/code&gt; 格式，但默认情况下，Hugo 不会生成 &lt;code&gt;ndjson&lt;/code&gt; 格式的数据文件, 而本主题默认支持生成 &lt;code&gt;ndjson&lt;/code&gt; 格式的数据文件，以方便使用 &lt;code&gt;algolia objects&lt;/code&gt; 命令上传数据到 Algolia。&lt;/p&gt;</description>
     </item>
     <item>
       <title>添加额外的社交链接</title>
-      <link>http://localhost:55811/docs/add-social-links/</link>
+      <link>http://localhost:1313/docs/add-social-links/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55811/docs/add-social-links/</guid>
+      <guid>http://localhost:1313/docs/add-social-links/</guid>
       <description>&lt;p&gt;主题默认提供了邮件、Github、X 和微信四种社交链接，但这是远远不够的，不过可以通过重写 &lt;code&gt;hook_social_links.html&lt;/code&gt; 来添加其他的社交链接。&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;hook_social_links.html&lt;/code&gt; 是一个钩子，你可以在站点的 &lt;code&gt;partials/index&lt;/code&gt; 目录下创建一个同名文件来覆盖默认的实现。&lt;/p&gt;</description>
     </item>
     <item>
       <title>安装主题</title>
-      <link>http://localhost:55811/docs/installation/</link>
+      <link>http://localhost:1313/docs/installation/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55811/docs/installation/</guid>
+      <guid>http://localhost:1313/docs/installation/</guid>
       <description>&lt;p&gt;从零开始安装主题。&lt;/p&gt;&#xA;&lt;h2 class=&#34;group head-tag&#34; id=&#34;前提条件&#34;&gt;前提条件&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#%e5%89%8d%e6%8f%90%e6%9d%a1%e4%bb%b6&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;下载 &#xA;&lt;a&#xA;  href=&#34;https://gohugo.io/installation/&#34;&#xA;  &#xA;    target=&#34;_blank&#34;&#xA;  &#xA;  &gt;Hugo&lt;/a&#xA;&gt;&#xA;, 版本要求 &amp;gt;= 0.124.0&lt;/li&gt;&#xA;&lt;li&gt;下载 &#xA;&lt;a&#xA;  href=&#34;https://go.dev/dl/&#34;&#xA;  &#xA;    target=&#34;_blank&#34;&#xA;  &#xA;  &gt;Go&lt;/a&#xA;&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;下载 &#xA;&lt;a&#xA;  href=&#34;https://nodejs.org/en&#34;&#xA;  &#xA;    target=&#34;_blank&#34;&#xA;  &#xA;  &gt;Node.js&lt;/a&#xA;&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 class=&#34;group head-tag&#34; id=&#34;创建站点&#34;&gt;创建站点&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#%e5%88%9b%e5%bb%ba%e7%ab%99%e7%82%b9&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;sitename&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;sitename&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 删除站点的 themes 目录&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm -rf themes&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 class=&#34;group head-tag&#34; id=&#34;初始化-hugo-模块&#34;&gt;初始化 Hugo 模块&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#%e5%88%9d%e5%a7%8b%e5%8c%96-hugo-%e6%a8%a1%e5%9d%97&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo mod init github.com/&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;username&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;sitename&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 class=&#34;group head-tag&#34; id=&#34;导入主题模块&#34;&gt;导入主题模块&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#%e5%af%bc%e5%85%a5%e4%b8%bb%e9%a2%98%e6%a8%a1%e5%9d%97&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;在 hugo.toml 中配置主题&lt;/p&gt;</description>
     </item>
     <item>
-      <title>第一年</title>
-      <link>http://localhost:55811/docs/FirstYear/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55811/docs/FirstYear/</guid>
-      <description>&lt;p&gt;#重大事件&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>两周年</title>
-      <link>http://localhost:55811/docs/SecondYear/</link>
+      <link>http://localhost:1313/docs/SecondYear/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55811/docs/SecondYear/</guid>
+      <guid>http://localhost:1313/docs/SecondYear/</guid>
       <description>&lt;p&gt;#重大事件&lt;/p&gt;</description>
     </item>
     <item>
       <title>三周年</title>
-      <link>http://localhost:55811/docs/ThirdYear/</link>
+      <link>http://localhost:1313/docs/ThirdYear/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55811/docs/ThirdYear/</guid>
+      <guid>http://localhost:1313/docs/ThirdYear/</guid>
       <description>&lt;p&gt;#重大事件&lt;/p&gt;</description>
     </item>
     <item>
       <title>四周年</title>
-      <link>http://localhost:55811/docs/FourthYear/</link>
+      <link>http://localhost:1313/docs/FourthYear/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55811/docs/FourthYear/</guid>
+      <guid>http://localhost:1313/docs/FourthYear/</guid>
       <description>&lt;h1 class=&#34;group head-tag&#34; id=&#34;重大事件&#34;&gt;重大事件&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#%e9%87%8d%e5%a4%a7%e4%ba%8b%e4%bb%b6&#34;&gt;&lt;/a&gt;&lt;/h1&gt;</description>
     </item>
   </channel>

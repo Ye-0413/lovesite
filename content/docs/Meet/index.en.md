@@ -10,7 +10,7 @@ tags:
 layout: "docs"
 emoji: ":star_struck:"
 url: "docs/Meet"
-image: "/images/placeHolder.jpg"
+image: "/images/meet.webp"
 description: "First Meet, Love In Deep"
 ---
 * Love is the kind of power that cannot be stopped by any power *
@@ -23,6 +23,10 @@ On May 14th of this year, an evening of playing basketball without antipication,
 
 Then I came back to find you during the summer vacation, remember these pictures, the first time we ate beef noodles, the first time we went to see a movie, the first time we held hands, the first photo, many, many of the first time...
 ![](Summer.jpg "")
+
+No matter what we do like to hold a tight hand, this summer vacation is so happy ah ~
+
+! [](holdHand.jpg "Holding hands all the time ")
 
 What happened next is that we are officially together!!
 

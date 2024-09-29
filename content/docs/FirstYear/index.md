@@ -1,16 +1,32 @@
 ---
-title: "第一年"
+title: "一周年"
 date: 2024-04-25
 draft: false
 weight: 7
-categories: ["文档"]
+categories: ["love"]
 tags:
   [
   ]
 layout: "docs"
 emoji: ":star_struck:"
 url: "docs/FirstYear"
-image: "/images/placeHolder.jpg"
+image: "/images/firstYear.webp"
 description: "第一年"
 ---
-#重大事件
+回顾我们在一起的这一年，时间真的好快呀，在这一年里我们经历了好多事情
+
+## “视频狂魔”
+
+我们最开始的时候真的好喜欢打视频呀，每天有说不完的话很有意思，记得那会儿还是QQ，各种整蛊的音效和特效，玩的很开心。
+
+![](videoCall.jpg "")
+
+## 爱心日历
+
+我这辈子目前收到过最用心的礼物可能就是这个日历啦，真的好感动，现在我也有在好好保存着，这本日历表面上记录的是2021年，但我却每年翻了一遍又一遍 🧡
+
+![](loveCanlandar.jpg "")
+
+
+2021年的新年，这个寒假我们一起做了好多事情，有好多好多的回忆。我们第一次一起做了蛋糕，去玩了冰上项目，还做了好多好多的手工，这个‘贾宝宝’就是最特别的那一个。还记得我们大年30放的云上烟花嘛，嘿嘿
+!["2021年农历新年"](newYear.jpg "2021年农历新年")
