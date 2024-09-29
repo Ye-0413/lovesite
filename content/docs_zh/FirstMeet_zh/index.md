@@ -11,7 +11,6 @@ image: "/images/placeHolder.jpg"
 description: "与君初相识，犹如故人归"
 ---
 
-
 * 所謂愛，就是那一種不會因任何力量而被阻止的力量 *
 
 # 相识
