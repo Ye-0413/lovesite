@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55650&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=50551&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -286,7 +286,7 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:55650/en/categories/docments/"
+              href="http://localhost:50551/en/categories/docments/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Docments
               <span class="absolute inset-0"></span>
@@ -296,7 +296,7 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:55650/en/categories/documents/"
+              href="http://localhost:50551/en/categories/documents/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Documents
               <span class="absolute inset-0"></span>
@@ -306,7 +306,7 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:55650/en/categories/go-tutorial/"
+              href="http://localhost:50551/en/categories/go-tutorial/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Go Tutorial
               <span class="absolute inset-0"></span>
@@ -316,7 +316,7 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:55650/en/categories/love/"
+              href="http://localhost:50551/en/categories/love/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Love
               <span class="absolute inset-0"></span>
@@ -516,25 +516,25 @@
       id="disclosure-1">
       
         <a
-          href="http://localhost:55650/en/categories/docments/"
+          href="http://localhost:50551/en/categories/docments/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Docments</a
         >
       
         <a
-          href="http://localhost:55650/en/categories/documents/"
+          href="http://localhost:50551/en/categories/documents/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Documents</a
         >
       
         <a
-          href="http://localhost:55650/en/categories/go-tutorial/"
+          href="http://localhost:50551/en/categories/go-tutorial/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Go Tutorial</a
         >
       
         <a
-          href="http://localhost:55650/en/categories/love/"
+          href="http://localhost:50551/en/categories/love/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Love</a
         >
@@ -589,34 +589,18 @@
     class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
     <div class="h-64 w-full md:h-48">
       
-    </div>
-
-    <div class="px-4 py-6 sm:p-6">
-      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
-        2024/04/25
-      </p>
-
-      <a href="http://localhost:55650/en/docs/quick-start/">
-        <p
-          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
-          Quickly Experience the Theme
-        </p>
-      </a>
-    </div>
-  </div>
-</li>
-
-      
-        <li
-  x-data="{ isLoaded: false }"
-  class="items-stretch"
-  x-intersect.threshold.30="isLoaded = true">
-  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
-  <div
-    x-show="isLoaded"
-    x-cloak
-    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
-    <div class="h-64 w-full md:h-48">
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:50551/images/docs/configuation.webp'"
+          :alt="'/images/docs/configuation.webp'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
       
     </div>
 
@@ -625,7 +609,7 @@
         2024/04/25
       </p>
 
-      <a href="http://localhost:55650/en/docs/configuation/">
+      <a href="http://localhost:50551/en/docs/configuation/">
         <p
           class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
           Important configuration instructions
@@ -647,6 +631,19 @@
     class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
     <div class="h-64 w-full md:h-48">
       
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:50551/images/docs/configuation.webp'"
+          :alt="'/images/docs/configuation.webp'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
+      
     </div>
 
     <div class="px-4 py-6 sm:p-6">
@@ -654,7 +651,7 @@
         2024/04/25
       </p>
 
-      <a href="http://localhost:55650/en/docs/configuation/">
+      <a href="http://localhost:50551/en/docs/configuation/">
         <p
           class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
           Important configuration instructions
@@ -676,34 +673,18 @@
     class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
     <div class="h-64 w-full md:h-48">
       
-    </div>
-
-    <div class="px-4 py-6 sm:p-6">
-      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
-        2024/04/25
-      </p>
-
-      <a href="http://localhost:55650/en/docs/configuation/">
-        <p
-          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
-          Important configuration instructions
-        </p>
-      </a>
-    </div>
-  </div>
-</li>
-
-      
-        <li
-  x-data="{ isLoaded: false }"
-  class="items-stretch"
-  x-intersect.threshold.30="isLoaded = true">
-  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
-  <div
-    x-show="isLoaded"
-    x-cloak
-    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
-    <div class="h-64 w-full md:h-48">
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:50551/images/docs/search.webp'"
+          :alt="'/images/docs/search.webp'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
       
     </div>
 
@@ -712,36 +693,7 @@
         2024/04/25
       </p>
 
-      <a href="http://localhost:55650/en/docs/configuation/">
-        <p
-          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
-          Important configuration instructions
-        </p>
-      </a>
-    </div>
-  </div>
-</li>
-
-      
-        <li
-  x-data="{ isLoaded: false }"
-  class="items-stretch"
-  x-intersect.threshold.30="isLoaded = true">
-  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
-  <div
-    x-show="isLoaded"
-    x-cloak
-    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
-    <div class="h-64 w-full md:h-48">
-      
-    </div>
-
-    <div class="px-4 py-6 sm:p-6">
-      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
-        2024/04/25
-      </p>
-
-      <a href="http://localhost:55650/en/docs/upload-data-to-algolia/">
+      <a href="http://localhost:50551/en/docs/upload-data-to-algolia/">
         <p
           class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
           Uploading Data to Algolia Search
@@ -763,6 +715,19 @@
     class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
     <div class="h-64 w-full md:h-48">
       
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:50551/images/docs/configuation.webp'"
+          :alt="'/images/docs/configuation.webp'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
+      
     </div>
 
     <div class="px-4 py-6 sm:p-6">
@@ -770,10 +735,10 @@
         2024/04/25
       </p>
 
-      <a href="http://localhost:55650/en/docs/upload-data-to-algolia/">
+      <a href="http://localhost:50551/en/docs/configuation/">
         <p
           class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
-          Uploading Data to Algolia Search
+          xxxxxs
         </p>
       </a>
     </div>
@@ -792,34 +757,18 @@
     class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
     <div class="h-64 w-full md:h-48">
       
-    </div>
-
-    <div class="px-4 py-6 sm:p-6">
-      <p class="hs-content-meta block text-xs text-gray-600 dark:text-gray-400">
-        2024/04/25
-      </p>
-
-      <a href="http://localhost:55650/en/docs/add-social-links/">
-        <p
-          class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
-          Add additional social links
-        </p>
-      </a>
-    </div>
-  </div>
-</li>
-
-      
-        <li
-  x-data="{ isLoaded: false }"
-  class="items-stretch"
-  x-intersect.threshold.30="isLoaded = true">
-  <div x-show="!isLoaded" x-cloak class="h-56 w-full bg-transparent"></div>
-  <div
-    x-show="isLoaded"
-    x-cloak
-    class="group h-full animate-slideTop overflow-hidden rounded-md bg-white/50 shadow-[0_7px_29px_0_rgba(100,100,111,0.2)] backdrop-blur-md transition hover:shadow-md dark:bg-gray-800/70 dark:shadow-[0_5px_15px_rgba(0,0,0,0.35)]">
-    <div class="h-64 w-full md:h-48">
+        <div
+          x-show="!isLoaded"
+          x-cloak
+          class="h-full w-full bg-transparent"></div>
+        <img
+          x-show="isLoaded"
+          x-cloak
+          :src="'http://localhost:50551/images/docs/social-links.webp'"
+          :alt="'/images/docs/social-links.webp'"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover" />
       
     </div>
 
@@ -828,7 +777,7 @@
         2024/04/25
       </p>
 
-      <a href="http://localhost:55650/en/docs/add-social-links/">
+      <a href="http://localhost:50551/en/docs/add-social-links/">
         <p
           class="hs-content-title mt-2 text-lg text-gray-900 group-hover:text-[--hs-text-color-hover] dark:text-gray-300">
           Add additional social links

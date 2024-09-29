@@ -1,6 +1,6 @@
 [[main]]
   name = "Love"
-  pageRef = "docs"
+  pageRef = "docs_zh"
   weight = 10
 
 [[main]]

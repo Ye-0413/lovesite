@@ -2,199 +2,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Seven Theme</title>
-    <link>http://localhost:55650/en/tags/</link>
+    <link>http://localhost:50551/en/tags/</link>
     <description>Recent content in Tags on Seven Theme</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Sep 2024 06:59:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55650/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 07:26:58 +0800</lastBuildDate>
+    <atom:link href="http://localhost:50551/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algolia</title>
-      <link>http://localhost:55650/en/tags/algolia/</link>
+      <link>http://localhost:50551/en/tags/algolia/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/algolia/</guid>
+      <guid>http://localhost:50551/en/tags/algolia/</guid>
       <description></description>
     </item>
     <item>
       <title>Analytics</title>
-      <link>http://localhost:55650/en/tags/analytics/</link>
+      <link>http://localhost:50551/en/tags/analytics/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/analytics/</guid>
+      <guid>http://localhost:50551/en/tags/analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Background</title>
-      <link>http://localhost:55650/en/tags/background/</link>
+      <link>http://localhost:50551/en/tags/background/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/background/</guid>
+      <guid>http://localhost:50551/en/tags/background/</guid>
       <description></description>
     </item>
     <item>
       <title>Comment</title>
-      <link>http://localhost:55650/en/tags/comment/</link>
+      <link>http://localhost:50551/en/tags/comment/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/comment/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Demo</title>
-      <link>http://localhost:55650/en/tags/demo/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/demo/</guid>
+      <guid>http://localhost:50551/en/tags/comment/</guid>
       <description></description>
     </item>
     <item>
       <title>Favicon</title>
-      <link>http://localhost:55650/en/tags/favicon/</link>
+      <link>http://localhost:50551/en/tags/favicon/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/favicon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Github</title>
-      <link>http://localhost:55650/en/tags/github/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/github/</guid>
+      <guid>http://localhost:50551/en/tags/favicon/</guid>
       <description></description>
     </item>
     <item>
       <title>Goatcounter</title>
-      <link>http://localhost:55650/en/tags/goatcounter/</link>
+      <link>http://localhost:50551/en/tags/goatcounter/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/goatcounter/</guid>
+      <guid>http://localhost:50551/en/tags/goatcounter/</guid>
       <description></description>
     </item>
     <item>
       <title>Installation</title>
-      <link>http://localhost:55650/en/tags/installation/</link>
+      <link>http://localhost:50551/en/tags/installation/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/installation/</guid>
+      <guid>http://localhost:50551/en/tags/installation/</guid>
       <description></description>
     </item>
     <item>
       <title>Logo</title>
-      <link>http://localhost:55650/en/tags/logo/</link>
+      <link>http://localhost:50551/en/tags/logo/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/logo/</guid>
+      <guid>http://localhost:50551/en/tags/logo/</guid>
       <description></description>
     </item>
     <item>
       <title>Ndjson</title>
-      <link>http://localhost:55650/en/tags/ndjson/</link>
+      <link>http://localhost:50551/en/tags/ndjson/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/ndjson/</guid>
+      <guid>http://localhost:50551/en/tags/ndjson/</guid>
       <description></description>
     </item>
     <item>
       <title>Page View</title>
-      <link>http://localhost:55650/en/tags/page-view/</link>
+      <link>http://localhost:50551/en/tags/page-view/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/page-view/</guid>
+      <guid>http://localhost:50551/en/tags/page-view/</guid>
       <description></description>
     </item>
     <item>
       <title>Parameter</title>
-      <link>http://localhost:55650/en/tags/parameter/</link>
+      <link>http://localhost:50551/en/tags/parameter/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/parameter/</guid>
+      <guid>http://localhost:50551/en/tags/parameter/</guid>
       <description></description>
     </item>
     <item>
       <title>Qrcode</title>
-      <link>http://localhost:55650/en/tags/qrcode/</link>
+      <link>http://localhost:50551/en/tags/qrcode/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/qrcode/</guid>
+      <guid>http://localhost:50551/en/tags/qrcode/</guid>
       <description></description>
     </item>
     <item>
       <title>Search</title>
-      <link>http://localhost:55650/en/tags/search/</link>
+      <link>http://localhost:50551/en/tags/search/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Seven</title>
-      <link>http://localhost:55650/en/tags/seven/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/seven/</guid>
+      <guid>http://localhost:50551/en/tags/search/</guid>
       <description></description>
     </item>
     <item>
       <title>Social Links</title>
-      <link>http://localhost:55650/en/tags/social-links/</link>
+      <link>http://localhost:50551/en/tags/social-links/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/social-links/</guid>
+      <guid>http://localhost:50551/en/tags/social-links/</guid>
       <description></description>
     </item>
     <item>
       <title>Society Link</title>
-      <link>http://localhost:55650/en/tags/society-link/</link>
+      <link>http://localhost:50551/en/tags/society-link/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/society-link/</guid>
+      <guid>http://localhost:50551/en/tags/society-link/</guid>
       <description></description>
     </item>
     <item>
       <title>Twikoo</title>
-      <link>http://localhost:55650/en/tags/twikoo/</link>
+      <link>http://localhost:50551/en/tags/twikoo/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/twikoo/</guid>
+      <guid>http://localhost:50551/en/tags/twikoo/</guid>
       <description></description>
     </item>
     <item>
       <title>Waline</title>
-      <link>http://localhost:55650/en/tags/waline/</link>
+      <link>http://localhost:50551/en/tags/waline/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/waline/</guid>
+      <guid>http://localhost:50551/en/tags/waline/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>http://localhost:55650/en/tags/go/</link>
+      <link>http://localhost:50551/en/tags/go/</link>
       <pubDate>Wed, 28 Jun 2023 22:02:42 +0800</pubDate>
-      <guid>http://localhost:55650/en/tags/go/</guid>
+      <guid>http://localhost:50551/en/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Go.work</title>
-      <link>http://localhost:55650/en/tags/go.work/</link>
+      <link>http://localhost:50551/en/tags/go.work/</link>
       <pubDate>Wed, 28 Jun 2023 22:02:42 +0800</pubDate>
-      <guid>http://localhost:55650/en/tags/go.work/</guid>
+      <guid>http://localhost:50551/en/tags/go.work/</guid>
       <description></description>
     </item>
     <item>
       <title>Multi Module</title>
-      <link>http://localhost:55650/en/tags/multi-module/</link>
+      <link>http://localhost:50551/en/tags/multi-module/</link>
       <pubDate>Wed, 28 Jun 2023 22:02:42 +0800</pubDate>
-      <guid>http://localhost:55650/en/tags/multi-module/</guid>
+      <guid>http://localhost:50551/en/tags/multi-module/</guid>
       <description></description>
     </item>
     <item>
       <title>初遇</title>
-      <link>http://localhost:55650/en/tags/%E5%88%9D%E9%81%87/</link>
+      <link>http://localhost:50551/en/tags/%E5%88%9D%E9%81%87/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/%E5%88%9D%E9%81%87/</guid>
+      <guid>http://localhost:50551/en/tags/%E5%88%9D%E9%81%87/</guid>
       <description></description>
     </item>
     <item>
       <title>相识</title>
-      <link>http://localhost:55650/en/tags/%E7%9B%B8%E8%AF%86/</link>
+      <link>http://localhost:50551/en/tags/%E7%9B%B8%E8%AF%86/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/%E7%9B%B8%E8%AF%86/</guid>
+      <guid>http://localhost:50551/en/tags/%E7%9B%B8%E8%AF%86/</guid>
       <description></description>
     </item>
     <item>
       <title>美好</title>
-      <link>http://localhost:55650/en/tags/%E7%BE%8E%E5%A5%BD/</link>
+      <link>http://localhost:50551/en/tags/%E7%BE%8E%E5%A5%BD/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/%E7%BE%8E%E5%A5%BD/</guid>
+      <guid>http://localhost:50551/en/tags/%E7%BE%8E%E5%A5%BD/</guid>
       <description></description>
     </item>
     <item>
       <title>萌芽</title>
-      <link>http://localhost:55650/en/tags/%E8%90%8C%E8%8A%BD/</link>
+      <link>http://localhost:50551/en/tags/%E8%90%8C%E8%8A%BD/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55650/en/tags/%E8%90%8C%E8%8A%BD/</guid>
+      <guid>http://localhost:50551/en/tags/%E8%90%8C%E8%8A%BD/</guid>
       <description></description>
     </item>
   </channel>

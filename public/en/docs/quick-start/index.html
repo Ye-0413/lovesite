@@ -581,12 +581,14 @@
 
   
     <div id="hs-feature" class="h-60 w-full md:h-120">
-
-
-
-
-<div class="h-full w-full bg-[#239dac] text-center"></div>
-</div>
+      <img
+        x-data="{ isGradient: false }"
+        :class="{ 'image-gradient': !isGradient }"
+        class="h-60 w-full object-cover md:h-120"
+        src="http://localhost:55650/images/docs/quick-start.webp"
+        alt="Hero Image of content"
+        srcset="" />
+    </div>
   
 
 

@@ -7,7 +7,7 @@ categories: ["love"]
 tags: ["相识", "初遇", "萌芽","美好"]
 layout: "docs"
 url: "/docs/FirstMeet"
-image: "/images/docs/placeholder.webp"
+image: "/img/placeholder.webp"
 description: "First saw, loved in deeeeep"
 ---
 * Love is the kind of power that cannot be stopped by any power *

@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55650&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=50551&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -289,7 +289,7 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:55650/en/categories/docments/"
+              href="http://localhost:50551/en/categories/docments/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Docments
               <span class="absolute inset-0"></span>
@@ -299,7 +299,7 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:55650/en/categories/documents/"
+              href="http://localhost:50551/en/categories/documents/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Documents
               <span class="absolute inset-0"></span>
@@ -309,7 +309,7 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:55650/en/categories/go-tutorial/"
+              href="http://localhost:50551/en/categories/go-tutorial/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Go Tutorial
               <span class="absolute inset-0"></span>
@@ -319,7 +319,7 @@
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
             <a
-              href="http://localhost:55650/en/categories/love/"
+              href="http://localhost:50551/en/categories/love/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Love
               <span class="absolute inset-0"></span>
@@ -519,25 +519,25 @@
       id="disclosure-1">
       
         <a
-          href="http://localhost:55650/en/categories/docments/"
+          href="http://localhost:50551/en/categories/docments/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Docments</a
         >
       
         <a
-          href="http://localhost:55650/en/categories/documents/"
+          href="http://localhost:50551/en/categories/documents/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Documents</a
         >
       
         <a
-          href="http://localhost:55650/en/categories/go-tutorial/"
+          href="http://localhost:50551/en/categories/go-tutorial/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Go Tutorial</a
         >
       
         <a
-          href="http://localhost:55650/en/categories/love/"
+          href="http://localhost:50551/en/categories/love/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Love</a
         >
@@ -581,12 +581,14 @@
 
   
     <div id="hs-feature" class="h-60 w-full md:h-120">
-
-
-
-
-<div class="h-full w-full bg-[#de903c] text-center"></div>
-</div>
+      <img
+        x-data="{ isGradient: false }"
+        :class="{ 'image-gradient': !isGradient }"
+        class="h-60 w-full object-cover md:h-120"
+        src="http://localhost:50551/images/docs/configuation.webp"
+        alt="Hero Image of content"
+        srcset="" />
+    </div>
   
 
 
@@ -611,7 +613,7 @@
                   <span class="italic text-red-700"> > </span>
                   <a
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
-                    href="http://localhost:55650/en/categories/documents/"
+                    href="http://localhost:50551/en/categories/documents/"
                     >Documents</a
                   >
                 
@@ -868,10 +870,8 @@
 <p>The <code>type</code> parameter indicates the content type uploaded to the Algolia search system. For example, if you create a <code>posts</code> directory under the <code>content</code> directory, the value configured for the <code>type</code> parameter would be <code>posts</code>.</p>
 <p>For instructions on how to upload articles to the Algolia search system, please refer to the article 
 
-      
-    
   <a
-  href="/en/docs/upload-data-to-algolia/"
+  href="docs/search"
   
   >Uploading Data to Algolia</a
 >
@@ -914,7 +914,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/parameter/"
+                  href="http://localhost:50551/en/tags/parameter/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -924,7 +924,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/logo/"
+                  href="http://localhost:50551/en/tags/logo/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -934,7 +934,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/favicon/"
+                  href="http://localhost:50551/en/tags/favicon/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -944,7 +944,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/comment/"
+                  href="http://localhost:50551/en/tags/comment/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -954,7 +954,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/search/"
+                  href="http://localhost:50551/en/tags/search/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -964,7 +964,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/background/"
+                  href="http://localhost:50551/en/tags/background/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -974,7 +974,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/society-link/"
+                  href="http://localhost:50551/en/tags/society-link/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -984,7 +984,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/analytics/"
+                  href="http://localhost:50551/en/tags/analytics/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -994,7 +994,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/page-view/"
+                  href="http://localhost:50551/en/tags/page-view/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -1004,7 +1004,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/waline/"
+                  href="http://localhost:50551/en/tags/waline/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -1014,7 +1014,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/twikoo/"
+                  href="http://localhost:50551/en/tags/twikoo/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -1024,7 +1024,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/algolia/"
+                  href="http://localhost:50551/en/tags/algolia/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
@@ -1034,7 +1034,7 @@
               
                 <a
                   class="text-center hover:text-[--hs-text-color-hover]"
-                  href="http://localhost:55650/en/tags/goatcounter/"
+                  href="http://localhost:50551/en/tags/goatcounter/"
                   ><span class="text-red-700 ">#</span
                   ><span
                     class="hover:text-[--hs-text-color-hover] hover:underline hover:decoration-[--decoration-color] hover:underline-offset-4"
