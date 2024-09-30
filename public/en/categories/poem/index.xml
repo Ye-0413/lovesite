@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poem on Seven Theme</title>
-    <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/</link>
+    <link>http://localhost:58664/en/categories/poem/</link>
     <description>Recent content in Poem on Seven Theme</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Sep 2024 12:03:16 +0800</lastBuildDate>
-    <atom:link href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58664/en/categories/poem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>诗</title>
-      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/posts/2023-06-28-getting-started-with-multi-module-workspaces/</link>
+      <link>http://localhost:58664/en/posts/2023-06-28-getting-started-with-multi-module-workspaces/</link>
       <pubDate>Wed, 28 Jun 2023 22:02:42 +0800</pubDate>
-      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/posts/2023-06-28-getting-started-with-multi-module-workspaces/</guid>
+      <guid>http://localhost:58664/en/posts/2023-06-28-getting-started-with-multi-module-workspaces/</guid>
       <description>&lt;p&gt;一月你还没有出现，&#xA;二月你睡在隔壁，&#xA;三月下起了大雨，&#xA;四月里遍地蔷薇，&#xA;五月我们对面坐着，犹如梦中。&#xA;就这样六月到了。&#xA;六月里青草盛开，处处芬芳。&#xA;七月，悲喜交加，&#xA;麦浪翻滚连同草地，直到天涯。&#xA;八月就是八月，八月我守口如瓶。&#xA;八月里我是瓶中的水，你是青天的云。&#xA;九月和十月，是两只眼睛，装满了大海，&#xA;你在海上，我在海下。&#xA;十一月尚未到来，透过它的窗口，我望见了十二月，&#xA;十二月大雪弥漫。&lt;/p&gt;</description>
     </item>
   </channel>

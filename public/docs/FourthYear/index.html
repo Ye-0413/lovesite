@@ -36,7 +36,7 @@
 
   
     
-      <link rel="stylesheet" href="/css/styles.min.d64efc4261a09e61ee29332ba8eb64e801fc4220995192d49f3e242f85e02fb8.css" />
+      <link rel="stylesheet" href="/css/styles.min.560fdf3a3072396edc922345c04955c98a300b0a8138c51bbe10c57f6e8fd365.css" />
     
   
 
@@ -248,14 +248,6 @@
 
   
     <a
-      href="/posts/"
-      class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >诗</a
-    >
-  
-
-  
-    <a
       href="/archive/"
       class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >归</a
@@ -304,16 +296,6 @@
               href="https://ashy-grass-0331f7300.5.azurestaticapps.net/categories/love/"
               class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
               Love
-              <span class="absolute inset-0"></span>
-            </a>
-          </div>
-        
-          <div
-            class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
-            <a
-              href="https://ashy-grass-0331f7300.5.azurestaticapps.net/categories/poem/"
-              class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
-              Poem
               <span class="absolute inset-0"></span>
             </a>
           </div>
@@ -473,14 +455,6 @@
 
   
     <a
-      href="/posts/"
-      class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >诗</a
-    >
-  
-
-  
-    <a
       href="/archive/"
       class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >归</a
@@ -522,12 +496,6 @@
           href="https://ashy-grass-0331f7300.5.azurestaticapps.net/categories/love/"
           class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
           >Love</a
-        >
-      
-        <a
-          href="https://ashy-grass-0331f7300.5.azurestaticapps.net/categories/poem/"
-          class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-          >Poem</a
         >
       
 
@@ -618,10 +586,10 @@
               <span>2024/04/25</span>
               <div
                 class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
-              <span>4&nbsp;字数</span>
+              <span>825&nbsp;字数</span>
               <div
                 class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
-              <span>1&nbsp;分钟</span>
+              <span>2&nbsp;分钟</span>
               
                 <div
                   class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
@@ -640,12 +608,109 @@
           </div>
 
           
+            <div x-data="{ open: false }" class="mt-5 lg:hidden">
+              <button
+                type="button"
+                x-on:click="open = !open"
+                class="flex w-full cursor-pointer items-center justify-start rounded-lg py-2 text-gray-500/90 hover:text-gray-700 dark:hover:text-gray-300">
+                <span class="shrink-0">
+                  <svg
+                    :class="{ 'rotate-90': open }"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-6 transition"
+                    fill="currentColor"
+                    viewBox="0 -960 960 960">
+                    <path d="M400-280v-400l200 200-200 200Z" />
+                  </svg>
+                </span>
+
+                <span class="hs-toc-title text-sm font-medium">
+                  目录
+                </span>
+              </button>
+              <div
+                x-cloak
+                x-show="open"
+                x-collapse.duration.1000ms
+                x-on:keydown.escape.window="open = false"
+                class="hs-toc mb-3 mt-1 space-y-1 px-2">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#再出发">再出发</a></li>
+    <li><a href="#新年到过年好">新年到，过年好</a></li>
+    <li><a href="#爱上马鞍山">爱上马鞍山</a></li>
+    <li><a href="#大西北">大西北</a></li>
+    <li><a href="#重返包头">重返包头</a></li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          
 
 
           <div
             id="hs-content"
             class="hs-content format mx-auto mt-2 max-w-none dark:format-invert md:format-base format-figure:flex format-figure:flex-col format-figure:items-center format-img:cursor-zoom-in dark:text-gray-300 lg:mt-11">
-            <h1 class="group head-tag" id="重大事件">重大事件<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#%e9%87%8d%e5%a4%a7%e4%ba%8b%e4%bb%b6"></a></h1>
+            <p>这一年里我们经历了好多，是我们一起变好的一年，在这一年里咱俩终于都上岸了，顺利成为了一名研究生，希望我们可以越来越好，永远幸福下去。宝贝，四周年快乐！</p>
+<h2 class="group head-tag" id="再出发">再出发<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#%e5%86%8d%e5%87%ba%e5%8f%91"></a></h2><p>上半年的主题还是围绕着考研展开，我们都在朝着未来努力，幸好所收获的对得起了我们的努力。
+
+  <img
+    class="data-image"
+    src="yan.jpg"
+    alt=""
+    loading="lazy" />
+
+</p>
+<h2 class="group head-tag" id="新年到过年好">新年到，过年好<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#%e6%96%b0%e5%b9%b4%e5%88%b0%e8%bf%87%e5%b9%b4%e5%a5%bd"></a></h2><p>一转眼又到过年，今年和往年有什么区别呢？当然就是时隔好多年，又可以放炮啦，今年特别的有年味，记得咱们30晚上去玩加特林，玩了个爽，还有别的炮，真的是特别特别尽兴。还记得我们去看烟火嘛，冻的要死，咱们硬是站了一晚上看了固阳的烟火，当看到漫天绚丽的烟火，心头暗喜，咱们又多了属于咱们的美好记忆。</p>
+<p>当然，除了烟花外，我们还玩了许多其他有趣的事情，我们去抓了娃娃，我们去看了元宵节的花灯，又一次挑战了滑旱冰（虽然还是滑得不好。总之，这是一个特别有年味的新年啦，过年好呀！
+
+  <img
+    class="data-image"
+    src="newYear.jpg"
+    alt="新年好！"
+    loading="lazy" />
+
+</p>
+<h2 class="group head-tag" id="爱上马鞍山">爱上马鞍山<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#%e7%88%b1%e4%b8%8a%e9%a9%ac%e9%9e%8d%e5%b1%b1"></a></h2><p>
+<a
+  href="https://aimmeng-life.wistia.com/medias/dz0zsp5hj4"
+  
+    target="_blank"
+  
+  >旅行Vlog</a
+>
+</p>
+<p>终于我们又去玩啦，这一次你终于考完了所有的试，可以心无旁骛的快乐玩耍啦。这一次我们主要去了马鞍山，风景真的好美呀，就是虫虫有一点多，看到了你的养蜂人服装哈哈哈哈。接着还收到了你送我的花花，好好看的花花反观我，我的选花品味真的需要好好提高一下了QAQ</p>
+<p>我们之后还去了哈素海、去了呼市美术馆，在哈素海又一次上演了经典的追车环节，哈哈哈哈。还有那只小羊的一眼万年，我发现我们总是能发现新的乐趣，真的好棒，能和你一起去看这个世界。
+
+  <img
+    class="data-image"
+    src="May.jpg"
+    alt="夏游"
+    loading="lazy" />
+
+</p>
+<h2 class="group head-tag" id="大西北">大西北<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#%e5%a4%a7%e8%a5%bf%e5%8c%97"></a></h2><p>大西北毫无疑问是我们这一年中去的最棒的地方，真的太美啦，旅行的后劲实在是太大了，每一处地方都好漂亮，东台吉乃尔湖、翡翠湖、青海湖、茶卡盐湖都好漂亮呀，我们拍了好多好多美丽的照片，美中不足的是这次旅行没有做Vlog，略有遗憾，但是还是好棒呀，西宁真是个好地方，这一次的旅行真的很开心！
+
+  <img
+    class="data-image"
+    src="westNorth.jpg"
+    alt="大西北并非寸草不生"
+    loading="lazy" />
+
+</p>
+<h2 class="group head-tag" id="重返包头">重返包头<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#%e9%87%8d%e8%bf%94%e5%8c%85%e5%a4%b4"></a></h2><p>大西北旅行结束不久，因为太想念啦，所以又回了一次包头玩，这一次我们去“偷”了玉米，去探索了固阳水库。浅浅玩了几天叭，这种和你在一起生活的感觉真的让人上瘾，不停期待着下一天的见面，晚上都不舍的分开。</p>
+
+  <figure class="data-image-info ">
+    <img
+      class="data-image"
+      src="last.jpg"
+      alt=""
+      loading="lazy" />
+    <figcaption></figcaption>
+  </figure>
+
+
           </div>
 
           <div class="hs-content-meta pb-5 pt-3">
@@ -659,6 +724,109 @@
       </div>
       
       
+  <div
+    x-data="{ open: true }"
+    class="hidden lg:sticky lg:top-28 lg:flex lg:h-96 lg:min-w-60">
+    <div
+      x-show="!open"
+      x-cloak
+      x-transition:enter="ease-in-out duration-500"
+      x-transition:enter-start="opacity-0"
+      x-transition:enter-end="opacity-100"
+      x-transition:leave="ease-in-out duration-500"
+      x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0"
+      class="flex">
+      <button
+        type="button"
+        @click="open = true"
+        class="absolute top-5 text-gray-300 hover:text-[--hs-text-color-hover] dark:text-gray-700 dark:hover:text-gray-300">
+        <span class="sr-only">Open sidebar</span>
+        <svg
+          class="h-7 w-7"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          viewBox="0 -960 960 960">
+          <path
+            d="M80-240v-480h480v480H80Zm80-80h320v-320H160v320Zm480-320v-80h80v80h-80Zm0 400v-80h80v80h-80Zm160-400v-80h80v80h-80Zm0 200v-80h80v80h-80Zm0 200v-80h80v80h-80ZM320-480Z" />
+        </svg>
+      </button>
+    </div>
+    
+    <div
+      @keydown.window.escape="open = false"
+      x-show="open"
+      class="relative z-10 w-full"
+      aria-labelledby="slide-over-title"
+      role="dialog"
+      aria-modal="true">
+      <div class="overflow-hidden">
+        <div class="absolute overflow-hidden">
+          <div class="pointer-events-none right-0 flex w-full">
+            <div
+              x-show="open"
+              x-transition:enter="transform transition ease-in-out duration-500 sm:duration-700"
+              x-transition:enter-start="translate-x-full"
+              x-transition:enter-end="translate-x-0"
+              x-transition:leave="transform transition ease-in-out duration-500 sm:duration-700"
+              x-transition:leave-start="translate-x-0"
+              x-transition:leave-end="translate-x-full"
+              class="pointer-events-auto relative">
+              <div class="flex h-full flex-col py-6 shadow-xl lg:min-w-60">
+                <div class="flex items-center justify-between pr-2">
+                  <h2
+                    class="hs-toc-title text-base font-bold leading-6 text-gray-700 dark:text-gray-400"
+                    id="slide-over-title">
+                    目录
+                  </h2>
+
+                  <div
+                    x-show="open"
+                    x-transition:enter="ease-in-out duration-500"
+                    x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100"
+                    x-transition:leave="ease-in-out duration-500"
+                    x-transition:leave-start="opacity-100"
+                    x-transition:leave-end="opacity-0"
+                    class="flex">
+                    <button
+                      type="button"
+                      @click="open = false"
+                      class="text-gray-300 hover:text-black focus:outline-none dark:text-gray-400 dark:hover:text-gray-100">
+                      <span class="sr-only">Close panel</span>
+                      <svg
+                        class="h-6 w-6"
+                        xmlns="http://www.w3.org/2000/svg"
+                        stroke="currentColor"
+                        fill="currentColor"
+                        viewBox="0 -960 960 960">
+                        <path
+                          d="M400-240v-480h480v480H400Zm80-80h320v-320H480v320Zm-240 80v-80h80v80h-80Zm0-400v-80h80v80h-80ZM80-240v-80h80v80H80Zm0-200v-80h80v80H80Zm0-200v-80h80v80H80Zm560 160Z" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="relative mt-6 h-128 flex-1">
+                  <div id="hs-toc" class="hs-toc text-sm lg:text-xs">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#再出发">再出发</a></li>
+    <li><a href="#新年到过年好">新年到，过年好</a></li>
+    <li><a href="#爱上马鞍山">爱上马鞍山</a></li>
+    <li><a href="#大西北">大西北</a></li>
+    <li><a href="#重返包头">重返包头</a></li>
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     </div>
 

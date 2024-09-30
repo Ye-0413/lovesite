@@ -2,7 +2,7 @@
 layout: posts
 title: "过程"
 date: 2023-06-28
-draft: false
+draft: true
 image: "/images/placeHolder.jpg"
 categories: ["Poem"]
 tags: ["poem"]

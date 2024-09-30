@@ -36,7 +36,7 @@
 
   
     
-      <link rel="stylesheet" href="/css/styles.min.d64efc4261a09e61ee29332ba8eb64e801fc4220995192d49f3e242f85e02fb8.css" />
+      <link rel="stylesheet" href="/css/styles.min.560fdf3a3072396edc922345c04955c98a300b0a8138c51bbe10c57f6e8fd365.css" />
     
   
 
@@ -248,14 +248,6 @@
 
   
     <a
-      href="/en/posts/"
-      class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >Poem</a
-    >
-  
-
-  
-    <a
       href="/en/archive/"
       class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Sum</a
@@ -297,16 +289,6 @@
       @scroll.window.away="isOpen = false"
       class="absolute -left-6 top-full z-10 mt-3 w-screen max-w-40 overflow-hidden rounded-xl bg-white/95 shadow-lg ring-1 ring-gray-900/5 backdrop-blur-xl dark:bg-gray-800/95">
       <div class="p-2">
-        
-          <div
-            class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
-            <a
-              href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/"
-              class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
-              Poem
-              <span class="absolute inset-0"></span>
-            </a>
-          </div>
         
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
@@ -473,14 +455,6 @@
 
   
     <a
-      href="/en/posts/"
-      class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >Poem</a
-    >
-  
-
-  
-    <a
       href="/en/archive/"
       class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Sum</a
@@ -517,12 +491,6 @@
       x-collapse
       class="flex flex-col space-y-1"
       id="disclosure-1">
-      
-        <a
-          href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/"
-          class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-          >Poem</a
-        >
       
         <a
           href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/%E6%96%87%E6%A1%A3/"
@@ -573,7 +541,7 @@
         x-data="{ isGradient: false }"
         :class="{ 'image-gradient': !isGradient }"
         class="h-60 w-full object-cover md:h-120"
-        src="https://ashy-grass-0331f7300.5.azurestaticapps.net/images/placeHolder.jpg"
+        src="https://ashy-grass-0331f7300.5.azurestaticapps.net/images/secondYear.jpg"
         alt="Hero Image of content"
         srcset="" />
     </div>
@@ -618,10 +586,10 @@
               <span>2024/04/25</span>
               <div
                 class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
-              <span>2&nbsp;words</span>
+              <span>504&nbsp;words</span>
               <div
                 class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
-              <span>1&nbsp;mins</span>
+              <span>2&nbsp;mins</span>
               
                 <div
                   class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
@@ -640,12 +608,82 @@
           </div>
 
           
+            <div x-data="{ open: false }" class="mt-5 lg:hidden">
+              <button
+                type="button"
+                x-on:click="open = !open"
+                class="flex w-full cursor-pointer items-center justify-start rounded-lg py-2 text-gray-500/90 hover:text-gray-700 dark:hover:text-gray-300">
+                <span class="shrink-0">
+                  <svg
+                    :class="{ 'rotate-90': open }"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-6 transition"
+                    fill="currentColor"
+                    viewBox="0 -960 960 960">
+                    <path d="M400-280v-400l200 200-200 200Z" />
+                  </svg>
+                </span>
+
+                <span class="hs-toc-title text-sm font-medium">
+                  Table of Contents
+                </span>
+              </button>
+              <div
+                x-cloak
+                x-show="open"
+                x-collapse.duration.1000ms
+                x-on:keydown.escape.window="open = false"
+                class="hs-toc mb-3 mt-1 space-y-1 px-2">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#yantai-new-years-eve">Yantai New Year&rsquo;s Eve</a></li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          
 
 
           <div
             id="hs-content"
             class="hs-content format mx-auto mt-2 max-w-none dark:format-invert md:format-base format-figure:flex format-figure:flex-col format-figure:items-center format-img:cursor-zoom-in dark:text-gray-300 lg:mt-11">
-            <h1 class="group head-tag" id="inportant-thing">Inportant Thing<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#inportant-thing"></a></h1>
+            <p>We have been together for two years, this year we had a very happy, the haze of the epidemic seems to finally come to an end, a lot of things happened in this year, I passed the IELTS, got the driver&rsquo;s license, our long-distance relationship from * Yu Tobacco * officially changed to * Hong Kong tobacco *&hellip; Wait, wait, wait. Anyway, happy second anniversary!</p>
+<h2 class="group head-tag" id="yantai-new-years-eve">Yantai New Year&rsquo;s Eve<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#yantai-new-years-eve"></a></h2><p>I remember that IELTS was very magical at that time, when I was confused about the exam, your magical dream suddenly told me to pass, and the next day it really passed! Decisive at that time to buy a ticket to Yantai to find you, should have finished the test in October to find you to play, the result of a test to December. Came to Yantai just you are still exam week, still busy in the final review, so we review while eating and drinking spent those days.</p>
+<p>What I remember vividly is that I was sitting in the airport bus, the earphones were playing David Tao&rsquo;s * Every day * on a loop, and I felt very sweet, and the joy of seeing you at that time was indescribable.</p>
+<p>After the New Year in Yantai, the next day I accompanied you to Qingdao, you officially began your postgraduate examination review road, after sending you to the institution, we went to the trestle at night, at night to see the sea, late night love, very romantic.</p>
+<p>! 
+
+  <a
+  href="YanTai1.jpg"
+  title="Yantai New Year&#39;s Eve "
+  >Yantai New Year&rsquo;s Eve</a
+>
+</p>
+<p>It&rsquo;s a New Year</p>
+<p>Soon it will be the New Year again, because of the epidemic, this winter vacation is particularly long, after you come back from Qingdao, our life is the main theme of study room. We went from winter to spring together.</p>
+<p>In this year&rsquo;s Valentine&rsquo;s Day, we spent happily together, remember we went to eat Haagen-Dazs, and went to eat Shangri-La.</p>
+<p>Then was the endless blockade of the epidemic, every day at home is to do nucleic acid, after a long time to unlock. We also went to do DIY together, made a phone case, and these two turtles.</p>
+<p>Look at this fluid bear, it&rsquo;s really beautiful, you are really a clever fairy.</p>
+<p>! 
+
+  <a
+  href="newYear.jpg"
+  title="New Year "
+  >New Year</a
+>
+</p>
+<p>In those months, I got my driver&rsquo;s license and graduated. So of course I came to you. Although it was not long, we also had a lot of good memories. We went to the old Baotou, small white River, Ma &lsquo;Anshan and so on these places, but also witnessed your actual combat, ha ha ha, a dare to open a dare to sit.</p>
+<p>In addition to the fun, we are also studying hard, as long as we are together, everything is fun.</p>
+<p>The last thing is to leave, I got the visa to go to Hong Kong, it is always very hard to leave, I remember that you did not come out to see me because you were afraid of sadness. So I have to quietly send the beautiful flower to you!
+! 
+
+  <a
+  href="summer.jpg"
+  title="Summer vacation "
+  >summer vacation</a
+>
+</p>
+
           </div>
 
           <div class="hs-content-meta pb-5 pt-3">
@@ -659,6 +697,105 @@
       </div>
       
       
+  <div
+    x-data="{ open: true }"
+    class="hidden lg:sticky lg:top-28 lg:flex lg:h-96 lg:min-w-60">
+    <div
+      x-show="!open"
+      x-cloak
+      x-transition:enter="ease-in-out duration-500"
+      x-transition:enter-start="opacity-0"
+      x-transition:enter-end="opacity-100"
+      x-transition:leave="ease-in-out duration-500"
+      x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0"
+      class="flex">
+      <button
+        type="button"
+        @click="open = true"
+        class="absolute top-5 text-gray-300 hover:text-[--hs-text-color-hover] dark:text-gray-700 dark:hover:text-gray-300">
+        <span class="sr-only">Open sidebar</span>
+        <svg
+          class="h-7 w-7"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          viewBox="0 -960 960 960">
+          <path
+            d="M80-240v-480h480v480H80Zm80-80h320v-320H160v320Zm480-320v-80h80v80h-80Zm0 400v-80h80v80h-80Zm160-400v-80h80v80h-80Zm0 200v-80h80v80h-80Zm0 200v-80h80v80h-80ZM320-480Z" />
+        </svg>
+      </button>
+    </div>
+    
+    <div
+      @keydown.window.escape="open = false"
+      x-show="open"
+      class="relative z-10 w-full"
+      aria-labelledby="slide-over-title"
+      role="dialog"
+      aria-modal="true">
+      <div class="overflow-hidden">
+        <div class="absolute overflow-hidden">
+          <div class="pointer-events-none right-0 flex w-full">
+            <div
+              x-show="open"
+              x-transition:enter="transform transition ease-in-out duration-500 sm:duration-700"
+              x-transition:enter-start="translate-x-full"
+              x-transition:enter-end="translate-x-0"
+              x-transition:leave="transform transition ease-in-out duration-500 sm:duration-700"
+              x-transition:leave-start="translate-x-0"
+              x-transition:leave-end="translate-x-full"
+              class="pointer-events-auto relative">
+              <div class="flex h-full flex-col py-6 shadow-xl lg:min-w-60">
+                <div class="flex items-center justify-between pr-2">
+                  <h2
+                    class="hs-toc-title text-base font-bold leading-6 text-gray-700 dark:text-gray-400"
+                    id="slide-over-title">
+                    In this article
+                  </h2>
+
+                  <div
+                    x-show="open"
+                    x-transition:enter="ease-in-out duration-500"
+                    x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100"
+                    x-transition:leave="ease-in-out duration-500"
+                    x-transition:leave-start="opacity-100"
+                    x-transition:leave-end="opacity-0"
+                    class="flex">
+                    <button
+                      type="button"
+                      @click="open = false"
+                      class="text-gray-300 hover:text-black focus:outline-none dark:text-gray-400 dark:hover:text-gray-100">
+                      <span class="sr-only">Close panel</span>
+                      <svg
+                        class="h-6 w-6"
+                        xmlns="http://www.w3.org/2000/svg"
+                        stroke="currentColor"
+                        fill="currentColor"
+                        viewBox="0 -960 960 960">
+                        <path
+                          d="M400-240v-480h480v480H400Zm80-80h320v-320H480v320Zm-240 80v-80h80v80h-80Zm0-400v-80h80v80h-80ZM80-240v-80h80v80H80Zm0-200v-80h80v80H80Zm0-200v-80h80v80H80Zm560 160Z" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="relative mt-6 h-128 flex-1">
+                  <div id="hs-toc" class="hs-toc text-sm lg:text-xs">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#yantai-new-years-eve">Yantai New Year&rsquo;s Eve</a></li>
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     </div>
 

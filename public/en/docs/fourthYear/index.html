@@ -36,7 +36,7 @@
 
   
     
-      <link rel="stylesheet" href="/css/styles.min.d64efc4261a09e61ee29332ba8eb64e801fc4220995192d49f3e242f85e02fb8.css" />
+      <link rel="stylesheet" href="/css/styles.min.560fdf3a3072396edc922345c04955c98a300b0a8138c51bbe10c57f6e8fd365.css" />
     
   
 
@@ -248,14 +248,6 @@
 
   
     <a
-      href="/en/posts/"
-      class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >Poem</a
-    >
-  
-
-  
-    <a
       href="/en/archive/"
       class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Sum</a
@@ -297,16 +289,6 @@
       @scroll.window.away="isOpen = false"
       class="absolute -left-6 top-full z-10 mt-3 w-screen max-w-40 overflow-hidden rounded-xl bg-white/95 shadow-lg ring-1 ring-gray-900/5 backdrop-blur-xl dark:bg-gray-800/95">
       <div class="p-2">
-        
-          <div
-            class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
-            <a
-              href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/"
-              class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
-              Poem
-              <span class="absolute inset-0"></span>
-            </a>
-          </div>
         
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
@@ -473,14 +455,6 @@
 
   
     <a
-      href="/en/posts/"
-      class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >Poem</a
-    >
-  
-
-  
-    <a
       href="/en/archive/"
       class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Sum</a
@@ -517,12 +491,6 @@
       x-collapse
       class="flex flex-col space-y-1"
       id="disclosure-1">
-      
-        <a
-          href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/"
-          class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-          >Poem</a
-        >
       
         <a
           href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/%E6%96%87%E6%A1%A3/"
@@ -573,7 +541,7 @@
         x-data="{ isGradient: false }"
         :class="{ 'image-gradient': !isGradient }"
         class="h-60 w-full object-cover md:h-120"
-        src="https://ashy-grass-0331f7300.5.azurestaticapps.net/images/placeHolder.jpg"
+        src="https://ashy-grass-0331f7300.5.azurestaticapps.net/images/forthYear.jpg"
         alt="Hero Image of content"
         srcset="" />
     </div>
@@ -618,10 +586,10 @@
               <span>2024/04/25</span>
               <div
                 class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
-              <span>2&nbsp;words</span>
+              <span>534&nbsp;words</span>
               <div
                 class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
-              <span>1&nbsp;mins</span>
+              <span>2&nbsp;mins</span>
               
                 <div
                   class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
@@ -640,12 +608,93 @@
           </div>
 
           
+            <div x-data="{ open: false }" class="mt-5 lg:hidden">
+              <button
+                type="button"
+                x-on:click="open = !open"
+                class="flex w-full cursor-pointer items-center justify-start rounded-lg py-2 text-gray-500/90 hover:text-gray-700 dark:hover:text-gray-300">
+                <span class="shrink-0">
+                  <svg
+                    :class="{ 'rotate-90': open }"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-6 transition"
+                    fill="currentColor"
+                    viewBox="0 -960 960 960">
+                    <path d="M400-280v-400l200 200-200 200Z" />
+                  </svg>
+                </span>
+
+                <span class="hs-toc-title text-sm font-medium">
+                  Table of Contents
+                </span>
+              </button>
+              <div
+                x-cloak
+                x-show="open"
+                x-collapse.duration.1000ms
+                x-on:keydown.escape.window="open = false"
+                class="hs-toc mb-3 mt-1 space-y-1 px-2">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#start-again">Start again</a></li>
+    <li><a href="#love-ma-anshan">Love Ma Anshan</a></li>
+    <li><a href="#great-northwest">Great Northwest</a></li>
+    <li><a href="#return-to-baotou">Return to Baotou</a></li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          
 
 
           <div
             id="hs-content"
             class="hs-content format mx-auto mt-2 max-w-none dark:format-invert md:format-base format-figure:flex format-figure:flex-col format-figure:items-center format-img:cursor-zoom-in dark:text-gray-300 lg:mt-11">
-            <h1 class="group head-tag" id="inportant-thing">Inportant Thing<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#inportant-thing"></a></h1>
+            <p>We have experienced a lot in this year, and it is a year that we become better together. In this year, both of us finally landed and successfully became a graduate student. I hope we can get better and better and be happy forever. Happy fourth anniversary, baby!</p>
+<h2 class="group head-tag" id="start-again">Start again<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#start-again"></a></h2><p>The theme of the first half of the year is still around the entrance exam, we are working towards the future, fortunately, the harvest worthy of our efforts.
+! 
+
+  <a
+  href="yan.jpg"
+  
+  ></a
+>
+</p>
+<p>New Year, happy New Year
+It&rsquo;s the Spring Festival again. What&rsquo;s the difference between this year and previous years? Of course, after many years, and can shoot, this year&rsquo;s special flavor, remember that we went to play Gatling 30 nights, played a cool, there are other guns, really is very, very enjoyable. Remember when we went to see the fireworks, freezing to death, we just stood for a night to see the fireworks of Gu Yang, when we saw the colorful fireworks, my heart was happy, we have more beautiful memories that belong to us.</p>
+<p>Of course, in addition to fireworks, we also played many other fun things, we went to catch dolls, we went to see the Lantern Festival, and once again the challenge of roller skating (although still not good skating. In short, this is a special New Year, happy New Year!
+! Happy New Year! &ldquo;Happy New Year!&rdquo; (newYear.jpg) )</p>
+<h2 class="group head-tag" id="love-ma-anshan">Love Ma Anshan<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#love-ma-anshan"></a></h2><p>Vlog [travel] (
+<a
+  href="https://aimmeng-life.wistia.com/medias/dz0zsp5hj4"
+  
+    target="_blank"
+  
+  >https://aimmeng-life.wistia.com/medias/dz0zsp5hj4</a
+>
+)</p>
+<p>Finally, we went to play again, and this time you finally finished all the tests, and you can play happily without distractions. This time we mainly went to Ma On Shan, the scenery is really beautiful ah, that is, there is a little more insects, saw your beekeeper clothing ha ha ha. Then I also received the flowers you sent me, good looking flowers look at me, my taste in flower selection really need to improve QAQ</p>
+<p>After that, we also went to Hasu Hai, went to the Huheong Art Museum, and once again staged a classic car chase in Hasu Hai, ha ha ha. And the sight of that lamb, I realized that we always find new things to enjoy, and it&rsquo;s really great to see the world with you.
+! 
+
+  <a
+  href="May.jpg"
+  title="Summer Tour "
+  >Summer Tour</a
+>
+</p>
+<h2 class="group head-tag" id="great-northwest">Great Northwest<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#great-northwest"></a></h2><p>Great Northwest is undoubtedly the best place we went to this year, it is really beautiful, the travel momentum is really too big, every place is so beautiful, Dongtai Jiner Lake, Emerald Lake, Qinghai Lake, Chaka Salt Lake are so beautiful ah, we took a lot of beautiful photos, the only drawback is that this trip did not do Vlog, a little regret, but still good! Xining is really a good place, this trip is really happy!
+! (westNorth.jpg &ldquo;Not a single inch of grass grows in the Great Northwest &ldquo;)</p>
+<h2 class="group head-tag" id="return-to-baotou">Return to Baotou<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#return-to-baotou"></a></h2><p>Soon after the end of the trip to the northwest, because I missed it too much, so I returned to Baotou to play, this time we went to &ldquo;steal&rdquo; corn, to explore the Guyang reservoir. Shallow play for a few days, this feeling of living with you is really addictive, keep looking forward to the next day to meet, and don&rsquo;t give up the night to separate.</p>
+<p>! 
+
+  <a
+  href="last.jpg"
+  
+  ></a
+>
+</p>
+
           </div>
 
           <div class="hs-content-meta pb-5 pt-3">
@@ -659,6 +708,108 @@
       </div>
       
       
+  <div
+    x-data="{ open: true }"
+    class="hidden lg:sticky lg:top-28 lg:flex lg:h-96 lg:min-w-60">
+    <div
+      x-show="!open"
+      x-cloak
+      x-transition:enter="ease-in-out duration-500"
+      x-transition:enter-start="opacity-0"
+      x-transition:enter-end="opacity-100"
+      x-transition:leave="ease-in-out duration-500"
+      x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0"
+      class="flex">
+      <button
+        type="button"
+        @click="open = true"
+        class="absolute top-5 text-gray-300 hover:text-[--hs-text-color-hover] dark:text-gray-700 dark:hover:text-gray-300">
+        <span class="sr-only">Open sidebar</span>
+        <svg
+          class="h-7 w-7"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          viewBox="0 -960 960 960">
+          <path
+            d="M80-240v-480h480v480H80Zm80-80h320v-320H160v320Zm480-320v-80h80v80h-80Zm0 400v-80h80v80h-80Zm160-400v-80h80v80h-80Zm0 200v-80h80v80h-80Zm0 200v-80h80v80h-80ZM320-480Z" />
+        </svg>
+      </button>
+    </div>
+    
+    <div
+      @keydown.window.escape="open = false"
+      x-show="open"
+      class="relative z-10 w-full"
+      aria-labelledby="slide-over-title"
+      role="dialog"
+      aria-modal="true">
+      <div class="overflow-hidden">
+        <div class="absolute overflow-hidden">
+          <div class="pointer-events-none right-0 flex w-full">
+            <div
+              x-show="open"
+              x-transition:enter="transform transition ease-in-out duration-500 sm:duration-700"
+              x-transition:enter-start="translate-x-full"
+              x-transition:enter-end="translate-x-0"
+              x-transition:leave="transform transition ease-in-out duration-500 sm:duration-700"
+              x-transition:leave-start="translate-x-0"
+              x-transition:leave-end="translate-x-full"
+              class="pointer-events-auto relative">
+              <div class="flex h-full flex-col py-6 shadow-xl lg:min-w-60">
+                <div class="flex items-center justify-between pr-2">
+                  <h2
+                    class="hs-toc-title text-base font-bold leading-6 text-gray-700 dark:text-gray-400"
+                    id="slide-over-title">
+                    In this article
+                  </h2>
+
+                  <div
+                    x-show="open"
+                    x-transition:enter="ease-in-out duration-500"
+                    x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100"
+                    x-transition:leave="ease-in-out duration-500"
+                    x-transition:leave-start="opacity-100"
+                    x-transition:leave-end="opacity-0"
+                    class="flex">
+                    <button
+                      type="button"
+                      @click="open = false"
+                      class="text-gray-300 hover:text-black focus:outline-none dark:text-gray-400 dark:hover:text-gray-100">
+                      <span class="sr-only">Close panel</span>
+                      <svg
+                        class="h-6 w-6"
+                        xmlns="http://www.w3.org/2000/svg"
+                        stroke="currentColor"
+                        fill="currentColor"
+                        viewBox="0 -960 960 960">
+                        <path
+                          d="M400-240v-480h480v480H400Zm80-80h320v-320H480v320Zm-240 80v-80h80v80h-80Zm0-400v-80h80v80h-80ZM80-240v-80h80v80H80Zm0-200v-80h80v80H80Zm0-200v-80h80v80H80Zm560 160Z" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="relative mt-6 h-128 flex-1">
+                  <div id="hs-toc" class="hs-toc text-sm lg:text-xs">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#start-again">Start again</a></li>
+    <li><a href="#love-ma-anshan">Love Ma Anshan</a></li>
+    <li><a href="#great-northwest">Great Northwest</a></li>
+    <li><a href="#return-to-baotou">Return to Baotou</a></li>
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     </div>
 

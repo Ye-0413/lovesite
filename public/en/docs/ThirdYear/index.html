@@ -36,7 +36,7 @@
 
   
     
-      <link rel="stylesheet" href="/css/styles.min.d64efc4261a09e61ee29332ba8eb64e801fc4220995192d49f3e242f85e02fb8.css" />
+      <link rel="stylesheet" href="/css/styles.min.560fdf3a3072396edc922345c04955c98a300b0a8138c51bbe10c57f6e8fd365.css" />
     
   
 
@@ -248,14 +248,6 @@
 
   
     <a
-      href="/en/posts/"
-      class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >Poem</a
-    >
-  
-
-  
-    <a
       href="/en/archive/"
       class="hs-menus text-sm font-semibold leading-6 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Sum</a
@@ -297,16 +289,6 @@
       @scroll.window.away="isOpen = false"
       class="absolute -left-6 top-full z-10 mt-3 w-screen max-w-40 overflow-hidden rounded-xl bg-white/95 shadow-lg ring-1 ring-gray-900/5 backdrop-blur-xl dark:bg-gray-800/95">
       <div class="p-2">
-        
-          <div
-            class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
-            <a
-              href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/"
-              class="block font-semibold text-gray-900 hover:text-[--hs-text-color-hover] dark:text-gray-400 dark:hover:text-white">
-              Poem
-              <span class="absolute inset-0"></span>
-            </a>
-          </div>
         
           <div
             class="relative rounded-lg px-4 py-2.5 text-sm leading-6 hover:bg-gray-300/30 hover:backdrop-blur-md">
@@ -473,14 +455,6 @@
 
   
     <a
-      href="/en/posts/"
-      class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-      >Poem</a
-    >
-  
-
-  
-    <a
       href="/en/archive/"
       class="hs-menus w-full rounded-lg px-3 py-2 text-center text-base font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
       >Sum</a
@@ -517,12 +491,6 @@
       x-collapse
       class="flex flex-col space-y-1"
       id="disclosure-1">
-      
-        <a
-          href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/"
-          class="block rounded-lg px-3 py-2 text-center text-sm font-semibold leading-7 text-gray-900 hover:text-[--hs-text-color-hover] dark:text-white"
-          >Poem</a
-        >
       
         <a
           href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/%E6%96%87%E6%A1%A3/"
@@ -573,7 +541,7 @@
         x-data="{ isGradient: false }"
         :class="{ 'image-gradient': !isGradient }"
         class="h-60 w-full object-cover md:h-120"
-        src="https://ashy-grass-0331f7300.5.azurestaticapps.net/images/placeHolder.jpg"
+        src="https://ashy-grass-0331f7300.5.azurestaticapps.net/images/thirdYear.jpg"
         alt="Hero Image of content"
         srcset="" />
     </div>
@@ -618,7 +586,7 @@
               <span>2024/04/25</span>
               <div
                 class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
-              <span>2&nbsp;words</span>
+              <span>485&nbsp;words</span>
               <div
                 class="h-1 w-1 rounded-full bg-red-700 dark:bg-red-700/50"></div>
               <span>1&nbsp;mins</span>
@@ -640,12 +608,101 @@
           </div>
 
           
+            <div x-data="{ open: false }" class="mt-5 lg:hidden">
+              <button
+                type="button"
+                x-on:click="open = !open"
+                class="flex w-full cursor-pointer items-center justify-start rounded-lg py-2 text-gray-500/90 hover:text-gray-700 dark:hover:text-gray-300">
+                <span class="shrink-0">
+                  <svg
+                    :class="{ 'rotate-90': open }"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-6 transition"
+                    fill="currentColor"
+                    viewBox="0 -960 960 960">
+                    <path d="M400-280v-400l200 200-200 200Z" />
+                  </svg>
+                </span>
+
+                <span class="hs-toc-title text-sm font-medium">
+                  Table of Contents
+                </span>
+              </button>
+              <div
+                x-cloak
+                x-show="open"
+                x-collapse.duration.1000ms
+                x-on:keydown.escape.window="open = false"
+                class="hs-toc mb-3 mt-1 space-y-1 px-2">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#long-distance-relationship">long-distance relationship</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#spring-outing">Spring outing</a></li>
+    <li><a href="#your-senior-season">Your senior season</a></li>
+    <li><a href="#dragon-boat-festival">Dragon Boat Festival</a></li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          
 
 
           <div
             id="hs-content"
             class="hs-content format mx-auto mt-2 max-w-none dark:format-invert md:format-base format-figure:flex format-figure:flex-col format-figure:items-center format-img:cursor-zoom-in dark:text-gray-300 lg:mt-11">
-            <h1 class="group head-tag" id="important-thing">Important Thing<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#important-thing"></a></h1>
+            <p>Dang Dang, we have been together for three years, this year finally out of the shadow of the epidemic, I did not like the beginning to think that I was really locked in Hong Kong can not come back, in short, this year is still very happy very happy</p>
+<h2 class="group head-tag" id="long-distance-relationship">long-distance relationship<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#long-distance-relationship"></a></h2><p>Because of the epidemic, I can&rsquo;t leave Hong Kong, so we have a long-distance relationship until the New Year, but this does not affect our feelings, even if we are far away, we can have a lot of joy. I remember when I just went to Hong Kong, you bought me a lot of delicious food. Fortunately, it was soon unsealed and I could go back to see you</p>
+<p>! (daily.jpg &ldquo;Scattered everyday &ldquo;)</p>
+<h1 class="group head-tag" id="new-years-day">New Year&rsquo;s Day<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#new-years-day"></a></h1><p>Because of the epidemic, the time to go home is very short, a special memory is that we went to see the legendary ice waterfall, and we also unlocked the activity of roller skating together for the first time, although I was very clumsy and could not bear to look at it. This time the New Year passed exceptionally fast, feel just started to end.</p>
+<p>! Happy New Year! (newYear.jpg) &ldquo;Happy New Year!&rdquo; )</p>
+<h2 class="group head-tag" id="spring-outing">Spring outing<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#spring-outing"></a></h2><p>Hey, hey, hey, soon it&rsquo;s April, and I&rsquo;m back to play with you! We had a good time this time, we went to make a small cake, went to the Baotou Science and Technology Museum, I also participated in the roast of the whole sheep, we found the food under the East River Victoria home, took a lot of beautiful photos, we were really happy together!</p>
+<p>! 
+
+  <a
+  href="April.jpg"
+  title="Spring Outing "
+  >Apr. jpg &ldquo;Spring Outing&rdquo;</a
+>
+</p>
+<h2 class="group head-tag" id="your-senior-season">Your senior season<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#your-senior-season"></a></h2><p>Of course, the most unforgettable part of this year is your graduation trip, thinking about it as if it were yesterday, missing that time. I put our Volg right here, [this is you cut the video] (
+<a
+  href="https://aimmeng-life.wistia.com/medias/wy36w7n35h%29"
+  
+    target="_blank"
+  
+  >https://aimmeng-life.wistia.com/medias/wy36w7n35h)</a
+>
+, [this is the video I cut] (
+<a
+  href="https://aimmeng-life.wistia.com/medias/vlp7ybfbqx%29"
+  
+    target="_blank"
+  
+  >https://aimmeng-life.wistia.com/medias/vlp7ybfbqx)</a
+>
+. I still clearly remember a lot of things about this trip, buy you a pot at midnight, let&rsquo;s go to Weihai snack street to drink, hahahaha, think about how happy it is, here should be BGM belongs to our 
+<a
+  href="https://music.163.com/#/song?id=37899973"
+  
+    target="_blank"
+  
+  >** exclusive memory **</a
+>
+.</p>
+<p>! yanTai, I graduated. (&rdquo; Yantai, I graduated &ldquo;)</p>
+<h2 class="group head-tag" id="dragon-boat-festival">Dragon Boat Festival<a data-title-of-head class="group-hover:after:content-['__#'] no-underline hover:text-[--hs-text-color-hover]" href="#dragon-boat-festival"></a></h2><p>Soon after the graduation trip, I will go back to Baotou to find you, every time we meet really feel that time is so fast, cherish every minute and every second with you, after the end of different places, I will cherish every minute and every second with you, really love you. This Dragon Boat Festival we went to the legendary sand spring, the results did not have a ha ha ha, on the way back I fell asleep directly on you. We went to the South Sea for a drive, and you took off when I wasn&rsquo;t looking, and I had a chase. Classic car chase.</p>
+<p>! 
+
+  <a
+  href="June.jpg"
+  
+  ></a
+>
+</p>
+
           </div>
 
           <div class="hs-content-meta pb-5 pt-3">
@@ -659,6 +716,111 @@
       </div>
       
       
+  <div
+    x-data="{ open: true }"
+    class="hidden lg:sticky lg:top-28 lg:flex lg:h-96 lg:min-w-60">
+    <div
+      x-show="!open"
+      x-cloak
+      x-transition:enter="ease-in-out duration-500"
+      x-transition:enter-start="opacity-0"
+      x-transition:enter-end="opacity-100"
+      x-transition:leave="ease-in-out duration-500"
+      x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0"
+      class="flex">
+      <button
+        type="button"
+        @click="open = true"
+        class="absolute top-5 text-gray-300 hover:text-[--hs-text-color-hover] dark:text-gray-700 dark:hover:text-gray-300">
+        <span class="sr-only">Open sidebar</span>
+        <svg
+          class="h-7 w-7"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          viewBox="0 -960 960 960">
+          <path
+            d="M80-240v-480h480v480H80Zm80-80h320v-320H160v320Zm480-320v-80h80v80h-80Zm0 400v-80h80v80h-80Zm160-400v-80h80v80h-80Zm0 200v-80h80v80h-80Zm0 200v-80h80v80h-80ZM320-480Z" />
+        </svg>
+      </button>
+    </div>
+    
+    <div
+      @keydown.window.escape="open = false"
+      x-show="open"
+      class="relative z-10 w-full"
+      aria-labelledby="slide-over-title"
+      role="dialog"
+      aria-modal="true">
+      <div class="overflow-hidden">
+        <div class="absolute overflow-hidden">
+          <div class="pointer-events-none right-0 flex w-full">
+            <div
+              x-show="open"
+              x-transition:enter="transform transition ease-in-out duration-500 sm:duration-700"
+              x-transition:enter-start="translate-x-full"
+              x-transition:enter-end="translate-x-0"
+              x-transition:leave="transform transition ease-in-out duration-500 sm:duration-700"
+              x-transition:leave-start="translate-x-0"
+              x-transition:leave-end="translate-x-full"
+              class="pointer-events-auto relative">
+              <div class="flex h-full flex-col py-6 shadow-xl lg:min-w-60">
+                <div class="flex items-center justify-between pr-2">
+                  <h2
+                    class="hs-toc-title text-base font-bold leading-6 text-gray-700 dark:text-gray-400"
+                    id="slide-over-title">
+                    In this article
+                  </h2>
+
+                  <div
+                    x-show="open"
+                    x-transition:enter="ease-in-out duration-500"
+                    x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100"
+                    x-transition:leave="ease-in-out duration-500"
+                    x-transition:leave-start="opacity-100"
+                    x-transition:leave-end="opacity-0"
+                    class="flex">
+                    <button
+                      type="button"
+                      @click="open = false"
+                      class="text-gray-300 hover:text-black focus:outline-none dark:text-gray-400 dark:hover:text-gray-100">
+                      <span class="sr-only">Close panel</span>
+                      <svg
+                        class="h-6 w-6"
+                        xmlns="http://www.w3.org/2000/svg"
+                        stroke="currentColor"
+                        fill="currentColor"
+                        viewBox="0 -960 960 960">
+                        <path
+                          d="M400-240v-480h480v480H400Zm80-80h320v-320H480v320Zm-240 80v-80h80v80h-80Zm0-400v-80h80v80h-80ZM80-240v-80h80v80H80Zm0-200v-80h80v80H80Zm0-200v-80h80v80H80Zm560 160Z" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="relative mt-6 h-128 flex-1">
+                  <div id="hs-toc" class="hs-toc text-sm lg:text-xs">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#long-distance-relationship">long-distance relationship</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#spring-outing">Spring outing</a></li>
+    <li><a href="#your-senior-season">Your senior season</a></li>
+    <li><a href="#dragon-boat-festival">Dragon Boat Festival</a></li>
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     </div>
 

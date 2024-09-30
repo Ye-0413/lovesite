@@ -96,61 +96,6 @@
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/%E6%96%87%E6%A1%A3/</loc>
     <lastmod>2024-09-30T15:15:53+08:00</lastmod>
   </url><url>
-    <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/tags/poem/</loc>
-    <lastmod>2024-09-29T12:03:16+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/tags/poem/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/tags/poem/"
-                />
-  </url><url>
-    <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/</loc>
-    <lastmod>2024-09-29T12:03:16+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/categories/poem/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/"
-                />
-  </url><url>
-    <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/posts/</loc>
-    <lastmod>2024-09-29T12:03:16+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/posts/"
-                />
-  </url><url>
-    <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/tags/</loc>
-    <lastmod>2024-09-29T12:03:16+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/tags/"
-                />
-  </url><url>
-    <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/posts/2023-06-28-getting-started-with-multi-module-workspaces/</loc>
-    <lastmod>2024-09-29T12:03:16+08:00</lastmod>
-  </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/archive/</loc>
     <lastmod>2024-09-29T06:59:24+08:00</lastmod>
     <xhtml:link
@@ -162,6 +107,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/archive/"
+                />
+  </url><url>
+    <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/tags/"
                 />
   </url>
 </urlset>
