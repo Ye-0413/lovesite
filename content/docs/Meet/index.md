@@ -1,6 +1,6 @@
 ---
 title: "相遇"
-date: 2024-04-25
+date: 2020-05-14
 draft: false
 weight: 2
 categories: ["love"]
@@ -11,9 +11,9 @@ layout: "docs"
 emoji: ":star_struck:"
 url: "docs/Meet"
 image: "/images/meet.webp"
-description: "相遇"
+description: "与君初相识，犹如故人归"
 ---
-* 所謂愛，就是那一種不會因任何力量而被阻止的力量 *
+*所謂愛，就是那一種不會因任何力量而被阻止的力量*
 
 # 相识
 

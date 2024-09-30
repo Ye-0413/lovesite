@@ -13,4 +13,4 @@ url: "docs/ThirdYear"
 image: "/images/placeHolder.jpg"
 description: "Third Anniversary, Love In Deep"
 ---
-# Inportant Thing
+# Important Thing

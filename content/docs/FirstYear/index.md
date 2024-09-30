@@ -11,9 +11,11 @@ layout: "docs"
 emoji: ":star_struck:"
 url: "docs/FirstYear"
 image: "/images/firstYear.webp"
-description: "第一年"
+description: "我想牵你的手去永远，看尽天长地久的风景，品尝海枯石烂的味道～"
 ---
 回顾我们在一起的这一年，时间真的好快呀，在这一年里我们经历了好多事情
+
+[一周年纪念视频](https://aimmeng-life.wistia.com/medias/zsyuvkzojf)
 
 ## “视频狂魔”
 
