@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>社交链接 on 爱的日日年年</title>
-    <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/tags/%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5/</link>
+    <link>http://localhost:61821/tags/%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5/</link>
     <description>Recent content in 社交链接 on 爱的日日年年</description>
     <generator>Hugo</generator>
     <language>zh-hans</language>
     <lastBuildDate>Sun, 29 Sep 2024 06:59:24 +0800</lastBuildDate>
-    <atom:link href="https://ashy-grass-0331f7300.5.azurestaticapps.net/tags/%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61821/tags/%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重要配置说明</title>
-      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/docs/configuation/</link>
+      <link>http://localhost:61821/docs/configuation/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/docs/configuation/</guid>
+      <guid>http://localhost:61821/docs/configuation/</guid>
       <description>&lt;p&gt;下面列出了在配置主题过程中需要配置的重要参数。&lt;/p&gt;&#xA;&lt;p&gt;如果在使用过程中，发现了一些问题，欢迎在 &#xA;&lt;a&#xA;  href=&#34;https://github.com/hugo-sid/hugo-theme-dream&#34;&#xA;  &#xA;    target=&#34;_blank&#34;&#xA;  &#xA;  &gt;Github&lt;/a&#xA;&gt;&#xA; 上提 issue，或者跟我进一步交流。&lt;/p&gt;&#xA;&lt;h2 class=&#34;group head-tag&#34; id=&#34;网站图标-favicon&#34;&gt;网站图标 Favicon&lt;a data-title-of-head class=&#34;group-hover:after:content-[&#39;__#&#39;] no-underline hover:text-[--hs-text-color-hover]&#34; href=&#34;#%e7%bd%91%e7%ab%99%e5%9b%be%e6%a0%87-favicon&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;主题是建议使用 &lt;strong&gt;svg&lt;/strong&gt; 作为 favicon 的，当然也支持传统的格式。&lt;/p&gt;</description>
     </item>
     <item>
       <title>添加额外的社交链接</title>
-      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/docs/add-social-links/</link>
+      <link>http://localhost:61821/docs/add-social-links/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/docs/add-social-links/</guid>
+      <guid>http://localhost:61821/docs/add-social-links/</guid>
       <description>&lt;p&gt;主题默认提供了邮件、Github、X 和微信四种社交链接，但这是远远不够的，不过可以通过重写 &lt;code&gt;hook_social_links.html&lt;/code&gt; 来添加其他的社交链接。&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;hook_social_links.html&lt;/code&gt; 是一个钩子，你可以在站点的 &lt;code&gt;partials/index&lt;/code&gt; 目录下创建一个同名文件来覆盖默认的实现。&lt;/p&gt;</description>
     </item>
   </channel>

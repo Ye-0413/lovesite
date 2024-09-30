@@ -6,22 +6,8 @@
     <description>Recent content in Categories on Seven Theme</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 30 Sep 2024 01:38:44 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 15:15:53 +0800</lastBuildDate>
     <atom:link href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Docments</title>
-      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/docments/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/docments/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Documents</title>
-      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/documents/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/documents/</guid>
-      <description></description>
-    </item>
     <item>
       <title>文档</title>
       <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/%E6%96%87%E6%A1%A3/</link>
@@ -34,13 +20,6 @@
       <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/</link>
       <pubDate>Wed, 28 Jun 2023 22:02:42 +0800</pubDate>
       <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/poem/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Love</title>
-      <link>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/love/</link>
-      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/love/</guid>
       <description></description>
     </item>
   </channel>

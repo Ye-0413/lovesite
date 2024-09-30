@@ -13,8 +13,3 @@
   pageRef = "archive"
   weight = 30
 
-
-[[main]]
-  name = "Movement"
-  pageRef = "goods"
-  weight = 50
