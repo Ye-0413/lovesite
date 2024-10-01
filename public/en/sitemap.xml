@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/docs/FirstYear/</loc>
-    <lastmod>2024-09-30T15:15:53+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/docs/SecondYear/</loc>
-    <lastmod>2024-09-29T12:03:16+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
@@ -42,7 +42,7 @@
                 />
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/docs/ThirdYear/</loc>
-    <lastmod>2024-09-30T15:15:53+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
@@ -55,7 +55,7 @@
                 />
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/docs/fourthYear/</loc>
-    <lastmod>2024-09-29T12:03:16+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
@@ -67,8 +67,21 @@
                 href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/docs/fourthYear/"
                 />
   </url><url>
+    <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/docs/</loc>
+    <lastmod>2024-09-29T06:59:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/docs/"
+                />
+  </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/</loc>
-    <lastmod>2024-09-30T15:15:53+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
@@ -81,7 +94,7 @@
                 />
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/</loc>
-    <lastmod>2024-09-30T15:15:53+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
@@ -94,7 +107,7 @@
                 />
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/categories/%E6%96%87%E6%A1%A3/</loc>
-    <lastmod>2024-09-30T15:15:53+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/en/archive/</loc>
     <lastmod>2024-09-29T06:59:24+08:00</lastmod>

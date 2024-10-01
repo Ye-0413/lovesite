@@ -55,7 +55,7 @@
                 />
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/docs/FourthYear/</loc>
-    <lastmod>2024-10-01T02:46:34+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -67,8 +67,21 @@
                 href="https://ashy-grass-0331f7300.5.azurestaticapps.net/docs/FourthYear/"
                 />
   </url><url>
+    <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/docs/</loc>
+    <lastmod>2024-09-29T06:59:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/en/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="https://ashy-grass-0331f7300.5.azurestaticapps.net/docs/"
+                />
+  </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/</loc>
-    <lastmod>2024-10-01T02:46:34+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -81,7 +94,7 @@
                 />
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/categories/</loc>
-    <lastmod>2024-10-01T02:46:34+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -94,13 +107,13 @@
                 />
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/categories/love/</loc>
-    <lastmod>2024-10-01T02:46:34+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/goods/</loc>
     <lastmod>2024-09-29T06:59:24+08:00</lastmod>
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/posts/</loc>
-    <lastmod>2024-09-29T12:03:16+08:00</lastmod>
+    <lastmod>2024-10-01T04:01:58+08:00</lastmod>
   </url><url>
     <loc>https://ashy-grass-0331f7300.5.azurestaticapps.net/archive/</loc>
     <lastmod>2024-09-29T06:59:24+08:00</lastmod>
